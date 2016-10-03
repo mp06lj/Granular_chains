@@ -1,0 +1,3616 @@
+Read line 1: c: comment line, this is ignored
+Read line 2: c: not a bad idea to have some info here for your own notes
+Read line 3: c: we are outputting all files, extension.dat
+Read line 4: outputfiles: fxbvkp
+Read line 5: output file extension: .dat
+Read line 6: outputinterval: 5.0E-6
+Read line 7: outputprecision: 6
+Read line 8: output grains:1-100
+Read line 9: fileName: monoDisperseTest
+Read line 10: DEFAULTGRAIN: sphere#0.006|rho#7800.0|poisson#0.28|youngs#200.0E+9|
+Read line 11: ChainPattern:[a#100]
+Read line 12: subunit:a
+Read line 13: loadstep: number#1|solver:velocityverlet|start#0|step#10.0E-12|stop#0.01|
+Read line 14: rightwall: loadstep#1|subunit:a|radius:inf
+Read line 15: leftwall: loadstep#1|subunit:a|radius:inf
+Read line 16: initialcondition: loadstep#1|variable:velocity|addvalue#0.099188|grains:1
+Read line 17: end
+Read line 18: 
+Read line 19: 
+Assigning loadstep number : 1
+Read and Ignoring Commented Line : 
+Read and Ignoring Commented Line : weareoutputtingallfiles,extension.dat
+Read and Ignoring Commented Line : notabadideatohavesomeinfohereforyourownnotes
+Read and Ignoring Commented Line : commentline,thisisignored
+*******************************************
+So I have read your input file and now find the following:
+*******************************************
+You want outputs to have the base name : monoDisperseTest
+You want these output files: 
+	Force output :  yes 
+	Relative Location output :  yes 
+	Absolute Location output :  yes 
+	Velocity output :  yes 
+	Potential Energy output :  yes 
+	Kinetic Energy output :  yes 
+	Overlaps output :  no 
+	Interface forces output :  no 
+And you want these outputs for the following grains (if they exist): 
+	1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100
+
+These were all the subunits you defined: 
+	Unit Name: DEFAULTGRAIN
+
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+	Unit Name: a
+
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+
+I read in a pattern which I decoded to be: 
+	a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|
+
+So that all in all these are the grains I have added to the chain: 
+From left to right (going in the positive direction)
+
+Grain 1
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 2
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 3
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 4
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 5
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 6
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 7
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 8
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 9
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 10
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 11
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 12
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 13
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 14
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 15
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 16
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 17
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 18
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 19
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 20
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 21
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 22
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 23
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 24
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 25
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 26
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 27
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 28
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 29
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 30
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 31
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 32
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 33
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 34
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 35
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 36
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 37
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 38
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 39
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 40
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 41
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 42
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 43
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 44
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 45
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 46
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 47
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 48
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 49
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 50
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 51
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 52
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 53
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 54
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 55
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 56
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 57
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 58
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 59
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 60
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 61
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 62
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 63
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 64
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 65
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 66
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 67
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 68
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 69
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 70
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 71
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 72
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 73
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 74
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 75
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 76
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 77
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 78
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 79
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 80
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 81
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 82
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 83
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 84
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 85
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 86
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 87
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 88
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 89
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 90
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 91
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 92
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 93
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 94
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 95
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 96
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 97
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 98
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 99
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+Grain 100
+	
+Grain Youngs Modulus : 2e+11
+Grain Poisson Ratio : 0.28
+Grain Density : 7800
+Grain Volume : 9.04779e-07
+Grain mass : 0.00705727
+Grain Shape : Shape Parameter
+	 Spherical Grain R : 0.006
+	 m : 1
+	 alpha : 2
+
+
+
+
+
+Now let's look at the interfaces between grains.
+	Interface: (1,2)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (2,3)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (3,4)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (4,5)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (5,6)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (6,7)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (7,8)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (8,9)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (9,10)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (10,11)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (11,12)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (12,13)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (13,14)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (14,15)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (15,16)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (16,17)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (17,18)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (18,19)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (19,20)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (20,21)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (21,22)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (22,23)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (23,24)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (24,25)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (25,26)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (26,27)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (27,28)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (28,29)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (29,30)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (30,31)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (31,32)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (32,33)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (33,34)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (34,35)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (35,36)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (36,37)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (37,38)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (38,39)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (39,40)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (40,41)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (41,42)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (42,43)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (43,44)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (44,45)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (45,46)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (46,47)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (47,48)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (48,49)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (49,50)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (50,51)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (51,52)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (52,53)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (53,54)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (54,55)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (55,56)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (56,57)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (57,58)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (58,59)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (59,60)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (60,61)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (61,62)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (62,63)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (63,64)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (64,65)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (65,66)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (66,67)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (67,68)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (68,69)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (69,70)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (70,71)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (71,72)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (72,73)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (73,74)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (74,75)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (75,76)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (76,77)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (77,78)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (78,79)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (79,80)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (80,81)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (81,82)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (82,83)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (83,84)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (84,85)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (85,86)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (86,87)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (87,88)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (88,89)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (89,90)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (90,91)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (91,92)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (92,93)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (93,94)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (94,95)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (95,96)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (96,97)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (97,98)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (98,99)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+	Interface: (99,100)	 has a force prefactor :1.24473e+10 and force power law : 1.5
+Wall interfaces (if used) will be treated as a special case
+The undeformed length of the chain before any load steps is : 1.2
+Details about this LoadStep  : 
+	 start time : 0
+	 stop time : 0.01
+	 time step: 1e-11
+	 body acceleration : 0
+	 velocity based damping  : 0
+	 force restitution (unload force is reduced by this factor)  : 1
+Wall info: 
+	 LEFT Wall : on
+	 LEFT Wall Offset: 0
+	 LEFT Wall Force Prefactor: 1.76032e+10
+	 LEFT Wall Force Power: 1.5
+	 RIGHT Wall : on
+	 RIGHT Wall Offset: 0
+	 RIGHT Wall Force Prefactor: 1.76032e+10
+	 RIGHT Wall Force Power: 1.5
+The following grains are movable ? 
+Grain : 1 is movable : yes
+Grain : 2 is movable : yes
+Grain : 3 is movable : yes
+Grain : 4 is movable : yes
+Grain : 5 is movable : yes
+Grain : 6 is movable : yes
+Grain : 7 is movable : yes
+Grain : 8 is movable : yes
+Grain : 9 is movable : yes
+Grain : 10 is movable : yes
+Grain : 11 is movable : yes
+Grain : 12 is movable : yes
+Grain : 13 is movable : yes
+Grain : 14 is movable : yes
+Grain : 15 is movable : yes
+Grain : 16 is movable : yes
+Grain : 17 is movable : yes
+Grain : 18 is movable : yes
+Grain : 19 is movable : yes
+Grain : 20 is movable : yes
+Grain : 21 is movable : yes
+Grain : 22 is movable : yes
+Grain : 23 is movable : yes
+Grain : 24 is movable : yes
+Grain : 25 is movable : yes
+Grain : 26 is movable : yes
+Grain : 27 is movable : yes
+Grain : 28 is movable : yes
+Grain : 29 is movable : yes
+Grain : 30 is movable : yes
+Grain : 31 is movable : yes
+Grain : 32 is movable : yes
+Grain : 33 is movable : yes
+Grain : 34 is movable : yes
+Grain : 35 is movable : yes
+Grain : 36 is movable : yes
+Grain : 37 is movable : yes
+Grain : 38 is movable : yes
+Grain : 39 is movable : yes
+Grain : 40 is movable : yes
+Grain : 41 is movable : yes
+Grain : 42 is movable : yes
+Grain : 43 is movable : yes
+Grain : 44 is movable : yes
+Grain : 45 is movable : yes
+Grain : 46 is movable : yes
+Grain : 47 is movable : yes
+Grain : 48 is movable : yes
+Grain : 49 is movable : yes
+Grain : 50 is movable : yes
+Grain : 51 is movable : yes
+Grain : 52 is movable : yes
+Grain : 53 is movable : yes
+Grain : 54 is movable : yes
+Grain : 55 is movable : yes
+Grain : 56 is movable : yes
+Grain : 57 is movable : yes
+Grain : 58 is movable : yes
+Grain : 59 is movable : yes
+Grain : 60 is movable : yes
+Grain : 61 is movable : yes
+Grain : 62 is movable : yes
+Grain : 63 is movable : yes
+Grain : 64 is movable : yes
+Grain : 65 is movable : yes
+Grain : 66 is movable : yes
+Grain : 67 is movable : yes
+Grain : 68 is movable : yes
+Grain : 69 is movable : yes
+Grain : 70 is movable : yes
+Grain : 71 is movable : yes
+Grain : 72 is movable : yes
+Grain : 73 is movable : yes
+Grain : 74 is movable : yes
+Grain : 75 is movable : yes
+Grain : 76 is movable : yes
+Grain : 77 is movable : yes
+Grain : 78 is movable : yes
+Grain : 79 is movable : yes
+Grain : 80 is movable : yes
+Grain : 81 is movable : yes
+Grain : 82 is movable : yes
+Grain : 83 is movable : yes
+Grain : 84 is movable : yes
+Grain : 85 is movable : yes
+Grain : 86 is movable : yes
+Grain : 87 is movable : yes
+Grain : 88 is movable : yes
+Grain : 89 is movable : yes
+Grain : 90 is movable : yes
+Grain : 91 is movable : yes
+Grain : 92 is movable : yes
+Grain : 93 is movable : yes
+Grain : 94 is movable : yes
+Grain : 95 is movable : yes
+Grain : 96 is movable : yes
+Grain : 97 is movable : yes
+Grain : 98 is movable : yes
+Grain : 99 is movable : yes
+Grain : 100 is movable : yes
+At the beginning of the load step I will add this vector to the velocity:
+0.099188	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+At the beginning of the load step I will add this vector to the displacement:
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Details regarding the Monte Carlo Params (if used): 
+acceptance ratio : 0.4
+max iterations : 100
+max cutbacks for scale : 10
+MC avgs : 1500
+tolerance  : 0.001
+random step scale : 0.1
+random step shift : 0.25
+
+
+
+
+At load step : 1
+Outputting time step 0 during load step : 1
+Outputting time step 5e-06 during load step : 1
+Outputting time step 1e-05 during load step : 1
+Outputting time step 1.5e-05 during load step : 1
+Outputting time step 2e-05 during load step : 1
+Outputting time step 2.5e-05 during load step : 1
+Outputting time step 3e-05 during load step : 1
+Outputting time step 3.5e-05 during load step : 1
+Outputting time step 4e-05 during load step : 1
+Outputting time step 4.5e-05 during load step : 1
+Outputting time step 5e-05 during load step : 1
+Outputting time step 5.5e-05 during load step : 1
+Outputting time step 6e-05 during load step : 1
+Outputting time step 6.5e-05 during load step : 1
+Outputting time step 7e-05 during load step : 1
+Outputting time step 7.5e-05 during load step : 1
+Outputting time step 8e-05 during load step : 1
+Outputting time step 8.5e-05 during load step : 1
+Outputting time step 9e-05 during load step : 1
+Outputting time step 9.5e-05 during load step : 1
+Outputting time step 0.0001 during load step : 1
+Outputting time step 0.000105 during load step : 1
+Outputting time step 0.00011 during load step : 1
+Outputting time step 0.000115 during load step : 1
+Outputting time step 0.00012 during load step : 1
+Outputting time step 0.000125 during load step : 1
+Outputting time step 0.00013 during load step : 1
+Outputting time step 0.000135 during load step : 1
+Outputting time step 0.00014 during load step : 1
+Outputting time step 0.000145 during load step : 1
+Outputting time step 0.00015 during load step : 1
+Outputting time step 0.000155 during load step : 1
+Outputting time step 0.00016 during load step : 1
+Outputting time step 0.000165 during load step : 1
+Outputting time step 0.00017 during load step : 1
+Outputting time step 0.000175 during load step : 1
+Outputting time step 0.00018 during load step : 1
+Outputting time step 0.000185 during load step : 1
+Outputting time step 0.00019 during load step : 1
+Outputting time step 0.000195 during load step : 1
+Outputting time step 0.0002 during load step : 1
+Outputting time step 0.000205 during load step : 1
+Outputting time step 0.00021 during load step : 1
+Outputting time step 0.000215 during load step : 1
+Outputting time step 0.00022 during load step : 1
+Outputting time step 0.000225 during load step : 1
+Outputting time step 0.00023 during load step : 1
+Outputting time step 0.000235 during load step : 1
+Outputting time step 0.00024 during load step : 1
+Outputting time step 0.000245 during load step : 1
+Outputting time step 0.00025 during load step : 1
+Outputting time step 0.000255 during load step : 1
+Outputting time step 0.00026 during load step : 1
+Outputting time step 0.000265 during load step : 1
+Outputting time step 0.00027 during load step : 1
+Outputting time step 0.000275 during load step : 1
+Outputting time step 0.00028 during load step : 1
+Outputting time step 0.000285 during load step : 1
+Outputting time step 0.00029 during load step : 1
+Outputting time step 0.000295 during load step : 1
+Outputting time step 0.0003 during load step : 1
+Outputting time step 0.000305 during load step : 1
+Outputting time step 0.00031 during load step : 1
+Outputting time step 0.000315 during load step : 1
+Outputting time step 0.00032 during load step : 1
+Outputting time step 0.000325 during load step : 1
+Outputting time step 0.00033 during load step : 1
+Outputting time step 0.000335 during load step : 1
+Outputting time step 0.00034 during load step : 1
+Outputting time step 0.000345 during load step : 1
+Outputting time step 0.00035 during load step : 1
+Outputting time step 0.000355 during load step : 1
+Outputting time step 0.00036 during load step : 1
+Outputting time step 0.000365 during load step : 1
+Outputting time step 0.00037 during load step : 1
+Outputting time step 0.000375 during load step : 1
+Outputting time step 0.00038 during load step : 1
+Outputting time step 0.000385 during load step : 1
+Outputting time step 0.00039 during load step : 1
+Outputting time step 0.000395 during load step : 1
+Outputting time step 0.0004 during load step : 1
+Outputting time step 0.000405 during load step : 1
+Outputting time step 0.00041 during load step : 1
+Outputting time step 0.000415 during load step : 1
+Outputting time step 0.00042 during load step : 1
+Outputting time step 0.000425 during load step : 1
+Outputting time step 0.00043 during load step : 1
+Outputting time step 0.000435 during load step : 1
+Outputting time step 0.00044 during load step : 1
+Outputting time step 0.000445 during load step : 1
+Outputting time step 0.00045 during load step : 1
+Outputting time step 0.000455 during load step : 1
+Outputting time step 0.00046 during load step : 1
+Outputting time step 0.000465 during load step : 1
+Outputting time step 0.00047 during load step : 1
+Outputting time step 0.000475 during load step : 1
+Outputting time step 0.00048 during load step : 1
+Outputting time step 0.000485 during load step : 1
+Outputting time step 0.00049 during load step : 1
+Outputting time step 0.000495 during load step : 1
+Outputting time step 0.0005 during load step : 1
+Outputting time step 0.000505 during load step : 1
+Outputting time step 0.00051 during load step : 1
+Outputting time step 0.000515 during load step : 1
+Outputting time step 0.00052 during load step : 1
+Outputting time step 0.000525 during load step : 1
+Outputting time step 0.00053 during load step : 1
+Outputting time step 0.000535 during load step : 1
+Outputting time step 0.00054 during load step : 1
+Outputting time step 0.000545 during load step : 1
+Outputting time step 0.00055 during load step : 1
+Outputting time step 0.000555 during load step : 1
+Outputting time step 0.00056 during load step : 1
+Outputting time step 0.000565 during load step : 1
+Outputting time step 0.00057 during load step : 1
+Outputting time step 0.000575 during load step : 1
+Outputting time step 0.00058 during load step : 1
+Outputting time step 0.000585 during load step : 1
+Outputting time step 0.00059 during load step : 1
+Outputting time step 0.000595 during load step : 1
+Outputting time step 0.0006 during load step : 1
+Outputting time step 0.000605 during load step : 1
+Outputting time step 0.00061 during load step : 1
+Outputting time step 0.000615 during load step : 1
+Outputting time step 0.00062 during load step : 1
+Outputting time step 0.000625 during load step : 1
+Outputting time step 0.00063 during load step : 1
+Outputting time step 0.000635 during load step : 1
+Outputting time step 0.00064 during load step : 1
+Outputting time step 0.000645 during load step : 1
+Outputting time step 0.00065 during load step : 1
+Outputting time step 0.000655 during load step : 1
+Outputting time step 0.00066 during load step : 1
+Outputting time step 0.000665 during load step : 1
+Outputting time step 0.00067 during load step : 1
+Outputting time step 0.000675 during load step : 1
+Outputting time step 0.00068 during load step : 1
+Outputting time step 0.000685 during load step : 1
+Outputting time step 0.00069 during load step : 1
+Outputting time step 0.000695 during load step : 1
+Outputting time step 0.0007 during load step : 1
+Outputting time step 0.000705 during load step : 1
+Outputting time step 0.00071 during load step : 1
+Outputting time step 0.000715 during load step : 1
+Outputting time step 0.00072 during load step : 1
+Outputting time step 0.000725 during load step : 1
+Outputting time step 0.00073 during load step : 1
+Outputting time step 0.000735 during load step : 1
+Outputting time step 0.00074 during load step : 1
+Outputting time step 0.000745 during load step : 1
+Outputting time step 0.00075 during load step : 1
+Outputting time step 0.000755 during load step : 1
+Outputting time step 0.00076 during load step : 1
+Outputting time step 0.000765 during load step : 1
+Outputting time step 0.00077 during load step : 1
+Outputting time step 0.000775 during load step : 1
+Outputting time step 0.00078 during load step : 1
+Outputting time step 0.000785 during load step : 1
+Outputting time step 0.00079 during load step : 1
+Outputting time step 0.000795 during load step : 1
+Outputting time step 0.0008 during load step : 1
+Outputting time step 0.000805 during load step : 1
+Outputting time step 0.00081 during load step : 1
+Outputting time step 0.000815 during load step : 1
+Outputting time step 0.00082 during load step : 1
+Outputting time step 0.000825 during load step : 1
+Outputting time step 0.00083 during load step : 1
+Outputting time step 0.000835 during load step : 1
+Outputting time step 0.00084 during load step : 1
+Outputting time step 0.000845 during load step : 1
+Outputting time step 0.00085 during load step : 1
+Outputting time step 0.000855 during load step : 1
+Outputting time step 0.00086 during load step : 1
+Outputting time step 0.000865 during load step : 1
+Outputting time step 0.00087 during load step : 1
+Outputting time step 0.000875 during load step : 1
+Outputting time step 0.00088 during load step : 1
+Outputting time step 0.000885 during load step : 1
+Outputting time step 0.00089 during load step : 1
+Outputting time step 0.000895 during load step : 1
+Outputting time step 0.0009 during load step : 1
+Outputting time step 0.000905 during load step : 1
+Outputting time step 0.00091 during load step : 1
+Outputting time step 0.000915 during load step : 1
+Outputting time step 0.00092 during load step : 1
+Outputting time step 0.000925 during load step : 1
+Outputting time step 0.00093 during load step : 1
+Outputting time step 0.000935 during load step : 1
+Outputting time step 0.00094 during load step : 1
+Outputting time step 0.000945 during load step : 1
+Outputting time step 0.00095 during load step : 1
+Outputting time step 0.000955 during load step : 1
+Outputting time step 0.00096 during load step : 1
+Outputting time step 0.000965 during load step : 1
+Outputting time step 0.00097 during load step : 1
+Outputting time step 0.000975 during load step : 1
+Outputting time step 0.00098 during load step : 1
+Outputting time step 0.000985 during load step : 1
+Outputting time step 0.00099 during load step : 1
+Outputting time step 0.000995 during load step : 1
+Outputting time step 0.001 during load step : 1
+Outputting time step 0.001005 during load step : 1
+Outputting time step 0.00101 during load step : 1
+Outputting time step 0.001015 during load step : 1
+Outputting time step 0.00102 during load step : 1
+Outputting time step 0.001025 during load step : 1
+Outputting time step 0.00103 during load step : 1
+Outputting time step 0.001035 during load step : 1
+Outputting time step 0.00104 during load step : 1
+Outputting time step 0.001045 during load step : 1
+Outputting time step 0.00105 during load step : 1
+Outputting time step 0.001055 during load step : 1
+Outputting time step 0.00106 during load step : 1
+Outputting time step 0.001065 during load step : 1
+Outputting time step 0.00107 during load step : 1
+Outputting time step 0.001075 during load step : 1
+Outputting time step 0.00108 during load step : 1
+Outputting time step 0.001085 during load step : 1
+Outputting time step 0.00109 during load step : 1
+Outputting time step 0.001095 during load step : 1
+Outputting time step 0.0011 during load step : 1
+Outputting time step 0.001105 during load step : 1
+Outputting time step 0.00111 during load step : 1
+Outputting time step 0.001115 during load step : 1
+Outputting time step 0.00112 during load step : 1
+Outputting time step 0.001125 during load step : 1
+Outputting time step 0.00113 during load step : 1
+Outputting time step 0.001135 during load step : 1
+Outputting time step 0.00114 during load step : 1
+Outputting time step 0.001145 during load step : 1
+Outputting time step 0.00115 during load step : 1
+Outputting time step 0.001155 during load step : 1
+Outputting time step 0.00116 during load step : 1
+Outputting time step 0.001165 during load step : 1
+Outputting time step 0.00117 during load step : 1
+Outputting time step 0.001175 during load step : 1
+Outputting time step 0.00118 during load step : 1
+Outputting time step 0.001185 during load step : 1
+Outputting time step 0.00119 during load step : 1
+Outputting time step 0.001195 during load step : 1
+Outputting time step 0.0012 during load step : 1
+Outputting time step 0.001205 during load step : 1
+Outputting time step 0.00121 during load step : 1
+Outputting time step 0.001215 during load step : 1
+Outputting time step 0.00122 during load step : 1
+Outputting time step 0.001225 during load step : 1
+Outputting time step 0.00123 during load step : 1
+Outputting time step 0.001235 during load step : 1
+Outputting time step 0.00124 during load step : 1
+Outputting time step 0.001245 during load step : 1
+Outputting time step 0.00125 during load step : 1
+Outputting time step 0.001255 during load step : 1
+Outputting time step 0.00126 during load step : 1
+Outputting time step 0.001265 during load step : 1
+Outputting time step 0.00127 during load step : 1
+Outputting time step 0.001275 during load step : 1
+Outputting time step 0.00128 during load step : 1
+Outputting time step 0.001285 during load step : 1
+Outputting time step 0.00129 during load step : 1
+Outputting time step 0.001295 during load step : 1
+Outputting time step 0.0013 during load step : 1
+Outputting time step 0.001305 during load step : 1
+Outputting time step 0.00131 during load step : 1
+Outputting time step 0.001315 during load step : 1
+Outputting time step 0.00132 during load step : 1
+Outputting time step 0.001325 during load step : 1
+Outputting time step 0.00133 during load step : 1
+Outputting time step 0.001335 during load step : 1
+Outputting time step 0.00134 during load step : 1
+Outputting time step 0.001345 during load step : 1
+Outputting time step 0.00135 during load step : 1
+Outputting time step 0.001355 during load step : 1
+Outputting time step 0.00136 during load step : 1
+Outputting time step 0.001365 during load step : 1
+Outputting time step 0.00137 during load step : 1
+Outputting time step 0.001375 during load step : 1
+Outputting time step 0.00138 during load step : 1
+Outputting time step 0.001385 during load step : 1
+Outputting time step 0.00139 during load step : 1
+Outputting time step 0.001395 during load step : 1
+Outputting time step 0.0014 during load step : 1
+Outputting time step 0.001405 during load step : 1
+Outputting time step 0.00141 during load step : 1
+Outputting time step 0.001415 during load step : 1
+Outputting time step 0.00142 during load step : 1
+Outputting time step 0.001425 during load step : 1
+Outputting time step 0.00143 during load step : 1
+Outputting time step 0.001435 during load step : 1
+Outputting time step 0.00144 during load step : 1
+Outputting time step 0.001445 during load step : 1
+Outputting time step 0.00145 during load step : 1
+Outputting time step 0.001455 during load step : 1
+Outputting time step 0.00146 during load step : 1
+Outputting time step 0.001465 during load step : 1
+Outputting time step 0.00147 during load step : 1
+Outputting time step 0.001475 during load step : 1
+Outputting time step 0.00148 during load step : 1
+Outputting time step 0.001485 during load step : 1
+Outputting time step 0.00149 during load step : 1
+Outputting time step 0.001495 during load step : 1
+Outputting time step 0.0015 during load step : 1
+Outputting time step 0.001505 during load step : 1
+Outputting time step 0.00151 during load step : 1
+Outputting time step 0.001515 during load step : 1
+Outputting time step 0.00152 during load step : 1
+Outputting time step 0.001525 during load step : 1
+Outputting time step 0.00153 during load step : 1
+Outputting time step 0.001535 during load step : 1
+Outputting time step 0.00154 during load step : 1
+Outputting time step 0.001545 during load step : 1
+Outputting time step 0.00155 during load step : 1
+Outputting time step 0.001555 during load step : 1
+Outputting time step 0.00156 during load step : 1
+Outputting time step 0.001565 during load step : 1
+Outputting time step 0.00157 during load step : 1
+Outputting time step 0.001575 during load step : 1
+Outputting time step 0.00158 during load step : 1
+Outputting time step 0.001585 during load step : 1
+Outputting time step 0.00159 during load step : 1
+Outputting time step 0.001595 during load step : 1
+Outputting time step 0.0016 during load step : 1
+Outputting time step 0.001605 during load step : 1
+Outputting time step 0.00161 during load step : 1
+Outputting time step 0.001615 during load step : 1
+Outputting time step 0.00162 during load step : 1
+Outputting time step 0.001625 during load step : 1
+Outputting time step 0.00163 during load step : 1
+Outputting time step 0.001635 during load step : 1
+Outputting time step 0.00164 during load step : 1
+Outputting time step 0.001645 during load step : 1
+Outputting time step 0.00165 during load step : 1
+Outputting time step 0.001655 during load step : 1
+Outputting time step 0.00166 during load step : 1
+Outputting time step 0.001665 during load step : 1
+Outputting time step 0.00167 during load step : 1
+Outputting time step 0.001675 during load step : 1
+Outputting time step 0.00168 during load step : 1
+Outputting time step 0.001685 during load step : 1
+Outputting time step 0.00169 during load step : 1
+Outputting time step 0.001695 during load step : 1
+Outputting time step 0.0017 during load step : 1
+Outputting time step 0.001705 during load step : 1
+Outputting time step 0.00171 during load step : 1
+Outputting time step 0.001715 during load step : 1
+Outputting time step 0.00172 during load step : 1
+Outputting time step 0.001725 during load step : 1
+Outputting time step 0.00173 during load step : 1
+Outputting time step 0.001735 during load step : 1
+Outputting time step 0.00174 during load step : 1
+Outputting time step 0.001745 during load step : 1
+Outputting time step 0.00175 during load step : 1
+Outputting time step 0.001755 during load step : 1
+Outputting time step 0.00176 during load step : 1
+Outputting time step 0.001765 during load step : 1
+Outputting time step 0.00177 during load step : 1
+Outputting time step 0.001775 during load step : 1
+Outputting time step 0.00178 during load step : 1
+Outputting time step 0.001785 during load step : 1
+Outputting time step 0.00179 during load step : 1
+Outputting time step 0.001795 during load step : 1
+Outputting time step 0.0018 during load step : 1
+Outputting time step 0.001805 during load step : 1
+Outputting time step 0.00181 during load step : 1
+Outputting time step 0.001815 during load step : 1
+Outputting time step 0.00182 during load step : 1
+Outputting time step 0.001825 during load step : 1
+Outputting time step 0.00183 during load step : 1
+Outputting time step 0.001835 during load step : 1
+Outputting time step 0.00184 during load step : 1
+Outputting time step 0.001845 during load step : 1
+Outputting time step 0.00185 during load step : 1
+Outputting time step 0.001855 during load step : 1
+Outputting time step 0.00186 during load step : 1
+Outputting time step 0.001865 during load step : 1
+Outputting time step 0.00187 during load step : 1
+Outputting time step 0.001875 during load step : 1
+Outputting time step 0.00188 during load step : 1
+Outputting time step 0.001885 during load step : 1
+Outputting time step 0.00189 during load step : 1
+Outputting time step 0.001895 during load step : 1
+Outputting time step 0.0019 during load step : 1
+Outputting time step 0.001905 during load step : 1
+Outputting time step 0.00191 during load step : 1
+Outputting time step 0.001915 during load step : 1
+Outputting time step 0.00192 during load step : 1
+Outputting time step 0.001925 during load step : 1
+Outputting time step 0.00193 during load step : 1
+Outputting time step 0.001935 during load step : 1
+Outputting time step 0.00194 during load step : 1
+Outputting time step 0.001945 during load step : 1
+Outputting time step 0.00195 during load step : 1
+Outputting time step 0.001955 during load step : 1
+Outputting time step 0.00196 during load step : 1
+Outputting time step 0.001965 during load step : 1
+Outputting time step 0.00197 during load step : 1
+Outputting time step 0.001975 during load step : 1
+Outputting time step 0.00198 during load step : 1
+Outputting time step 0.001985 during load step : 1
+Outputting time step 0.00199 during load step : 1
+Outputting time step 0.001995 during load step : 1
+Outputting time step 0.002 during load step : 1
+Outputting time step 0.002005 during load step : 1
+Outputting time step 0.00201 during load step : 1
+Outputting time step 0.002015 during load step : 1
+Outputting time step 0.00202 during load step : 1
+Outputting time step 0.002025 during load step : 1
+Outputting time step 0.00203 during load step : 1
+Outputting time step 0.002035 during load step : 1
+Outputting time step 0.00204 during load step : 1
+Outputting time step 0.002045 during load step : 1
+Outputting time step 0.00205 during load step : 1
+Outputting time step 0.002055 during load step : 1
+Outputting time step 0.00206 during load step : 1
+Outputting time step 0.002065 during load step : 1
+Outputting time step 0.00207 during load step : 1
+Outputting time step 0.002075 during load step : 1
+Outputting time step 0.00208 during load step : 1
+Outputting time step 0.002085 during load step : 1
+Outputting time step 0.00209 during load step : 1
+Outputting time step 0.002095 during load step : 1
+Outputting time step 0.0021 during load step : 1
+Outputting time step 0.002105 during load step : 1
+Outputting time step 0.00211 during load step : 1
+Outputting time step 0.002115 during load step : 1
+Outputting time step 0.00212 during load step : 1
+Outputting time step 0.002125 during load step : 1
+Outputting time step 0.00213 during load step : 1
+Outputting time step 0.002135 during load step : 1
+Outputting time step 0.00214 during load step : 1
+Outputting time step 0.002145 during load step : 1
+Outputting time step 0.00215 during load step : 1
+Outputting time step 0.002155 during load step : 1
+Outputting time step 0.00216 during load step : 1
+Outputting time step 0.002165 during load step : 1
+Outputting time step 0.00217 during load step : 1
+Outputting time step 0.002175 during load step : 1
+Outputting time step 0.00218 during load step : 1
+Outputting time step 0.002185 during load step : 1
+Outputting time step 0.00219 during load step : 1
+Outputting time step 0.002195 during load step : 1
+Outputting time step 0.0022 during load step : 1
+Outputting time step 0.002205 during load step : 1
+Outputting time step 0.00221 during load step : 1
+Outputting time step 0.002215 during load step : 1
+Outputting time step 0.00222 during load step : 1
+Outputting time step 0.002225 during load step : 1
+Outputting time step 0.00223 during load step : 1
+Outputting time step 0.002235 during load step : 1
+Outputting time step 0.00224 during load step : 1
+Outputting time step 0.002245 during load step : 1
+Outputting time step 0.00225 during load step : 1
+Outputting time step 0.002255 during load step : 1
+Outputting time step 0.00226 during load step : 1
+Outputting time step 0.002265 during load step : 1
+Outputting time step 0.00227 during load step : 1
+Outputting time step 0.002275 during load step : 1
+Outputting time step 0.00228 during load step : 1
+Outputting time step 0.002285 during load step : 1
+Outputting time step 0.00229 during load step : 1
+Outputting time step 0.002295 during load step : 1
+Outputting time step 0.0023 during load step : 1
+Outputting time step 0.002305 during load step : 1
+Outputting time step 0.00231 during load step : 1
+Outputting time step 0.002315 during load step : 1
+Outputting time step 0.00232 during load step : 1
+Outputting time step 0.002325 during load step : 1
+Outputting time step 0.00233 during load step : 1
+Outputting time step 0.002335 during load step : 1
+Outputting time step 0.00234 during load step : 1
+Outputting time step 0.002345 during load step : 1
+Outputting time step 0.00235 during load step : 1
+Outputting time step 0.002355 during load step : 1
+Outputting time step 0.00236 during load step : 1
+Outputting time step 0.002365 during load step : 1
+Outputting time step 0.00237 during load step : 1
+Outputting time step 0.002375 during load step : 1
+Outputting time step 0.00238 during load step : 1
+Outputting time step 0.002385 during load step : 1
+Outputting time step 0.00239 during load step : 1
+Outputting time step 0.002395 during load step : 1
+Outputting time step 0.0024 during load step : 1
+Outputting time step 0.002405 during load step : 1
+Outputting time step 0.00241 during load step : 1
+Outputting time step 0.002415 during load step : 1
+Outputting time step 0.00242 during load step : 1
+Outputting time step 0.002425 during load step : 1
+Outputting time step 0.00243 during load step : 1
+Outputting time step 0.002435 during load step : 1
+Outputting time step 0.00244 during load step : 1
+Outputting time step 0.002445 during load step : 1
+Outputting time step 0.00245 during load step : 1
+Outputting time step 0.002455 during load step : 1
+Outputting time step 0.00246 during load step : 1
+Outputting time step 0.002465 during load step : 1
+Outputting time step 0.00247 during load step : 1
+Outputting time step 0.002475 during load step : 1
+Outputting time step 0.00248 during load step : 1
+Outputting time step 0.002485 during load step : 1
+Outputting time step 0.00249 during load step : 1
+Outputting time step 0.002495 during load step : 1
+Outputting time step 0.0025 during load step : 1
+Outputting time step 0.002505 during load step : 1
+Outputting time step 0.00251 during load step : 1
+Outputting time step 0.002515 during load step : 1
+Outputting time step 0.00252 during load step : 1
+Outputting time step 0.002525 during load step : 1
+Outputting time step 0.00253 during load step : 1
+Outputting time step 0.002535 during load step : 1
+Outputting time step 0.00254 during load step : 1
+Outputting time step 0.002545 during load step : 1
+Outputting time step 0.00255 during load step : 1
+Outputting time step 0.002555 during load step : 1
+Outputting time step 0.00256 during load step : 1
+Outputting time step 0.002565 during load step : 1
+Outputting time step 0.00257 during load step : 1
+Outputting time step 0.002575 during load step : 1
+Outputting time step 0.00258 during load step : 1
+Outputting time step 0.002585 during load step : 1
+Outputting time step 0.00259 during load step : 1
+Outputting time step 0.002595 during load step : 1
+Outputting time step 0.0026 during load step : 1
+Outputting time step 0.002605 during load step : 1
+Outputting time step 0.00261 during load step : 1
+Outputting time step 0.002615 during load step : 1
+Outputting time step 0.00262 during load step : 1
+Outputting time step 0.002625 during load step : 1
+Outputting time step 0.00263 during load step : 1
+Outputting time step 0.002635 during load step : 1
+Outputting time step 0.00264 during load step : 1
+Outputting time step 0.002645 during load step : 1
+Outputting time step 0.00265 during load step : 1
+Outputting time step 0.002655 during load step : 1
+Outputting time step 0.00266 during load step : 1
+Outputting time step 0.002665 during load step : 1
+Outputting time step 0.00267 during load step : 1
+Outputting time step 0.002675 during load step : 1
+Outputting time step 0.00268 during load step : 1
+Outputting time step 0.002685 during load step : 1
+Outputting time step 0.00269 during load step : 1
+Outputting time step 0.002695 during load step : 1
+Outputting time step 0.0027 during load step : 1
+Outputting time step 0.002705 during load step : 1
+Outputting time step 0.00271 during load step : 1
+Outputting time step 0.002715 during load step : 1
+Outputting time step 0.00272 during load step : 1
+Outputting time step 0.002725 during load step : 1
+Outputting time step 0.00273 during load step : 1
+Outputting time step 0.002735 during load step : 1
+Outputting time step 0.00274 during load step : 1
+Outputting time step 0.002745 during load step : 1
+Outputting time step 0.00275 during load step : 1
+Outputting time step 0.002755 during load step : 1
+Outputting time step 0.00276 during load step : 1
+Outputting time step 0.002765 during load step : 1
+Outputting time step 0.00277 during load step : 1
+Outputting time step 0.002775 during load step : 1
+Outputting time step 0.00278 during load step : 1
+Outputting time step 0.002785 during load step : 1
+Outputting time step 0.00279 during load step : 1
+Outputting time step 0.002795 during load step : 1
+Outputting time step 0.0028 during load step : 1
+Outputting time step 0.002805 during load step : 1
+Outputting time step 0.00281 during load step : 1
+Outputting time step 0.002815 during load step : 1
+Outputting time step 0.00282 during load step : 1
+Outputting time step 0.002825 during load step : 1
+Outputting time step 0.00283 during load step : 1
+Outputting time step 0.002835 during load step : 1
+Outputting time step 0.00284 during load step : 1
+Outputting time step 0.002845 during load step : 1
+Outputting time step 0.00285 during load step : 1
+Outputting time step 0.002855 during load step : 1
+Outputting time step 0.00286 during load step : 1
+Outputting time step 0.002865 during load step : 1
+Outputting time step 0.00287 during load step : 1
+Outputting time step 0.002875 during load step : 1
+Outputting time step 0.00288 during load step : 1
+Outputting time step 0.002885 during load step : 1
+Outputting time step 0.00289 during load step : 1
+Outputting time step 0.002895 during load step : 1
+Outputting time step 0.0029 during load step : 1
+Outputting time step 0.002905 during load step : 1
+Outputting time step 0.00291 during load step : 1
+Outputting time step 0.002915 during load step : 1
+Outputting time step 0.00292 during load step : 1
+Outputting time step 0.002925 during load step : 1
+Outputting time step 0.00293 during load step : 1
+Outputting time step 0.002935 during load step : 1
+Outputting time step 0.00294 during load step : 1
+Outputting time step 0.002945 during load step : 1
+Outputting time step 0.00295 during load step : 1
+Outputting time step 0.002955 during load step : 1
+Outputting time step 0.00296 during load step : 1
+Outputting time step 0.002965 during load step : 1
+Outputting time step 0.00297 during load step : 1
+Outputting time step 0.002975 during load step : 1
+Outputting time step 0.00298 during load step : 1
+Outputting time step 0.002985 during load step : 1
+Outputting time step 0.00299 during load step : 1
+Outputting time step 0.002995 during load step : 1
+Outputting time step 0.003 during load step : 1
+Outputting time step 0.003005 during load step : 1
+Outputting time step 0.00301 during load step : 1
+Outputting time step 0.003015 during load step : 1
+Outputting time step 0.00302 during load step : 1
+Outputting time step 0.003025 during load step : 1
+Outputting time step 0.00303 during load step : 1
+Outputting time step 0.003035 during load step : 1
+Outputting time step 0.00304 during load step : 1
+Outputting time step 0.003045 during load step : 1
+Outputting time step 0.00305 during load step : 1
+Outputting time step 0.003055 during load step : 1
+Outputting time step 0.00306 during load step : 1
+Outputting time step 0.003065 during load step : 1
+Outputting time step 0.00307 during load step : 1
+Outputting time step 0.003075 during load step : 1
+Outputting time step 0.00308 during load step : 1
+Outputting time step 0.003085 during load step : 1
+Outputting time step 0.00309 during load step : 1
+Outputting time step 0.003095 during load step : 1
+Outputting time step 0.0031 during load step : 1
+Outputting time step 0.003105 during load step : 1
+Outputting time step 0.00311 during load step : 1
+Outputting time step 0.003115 during load step : 1
+Outputting time step 0.00312 during load step : 1
+Outputting time step 0.003125 during load step : 1
+Outputting time step 0.00313 during load step : 1
+Outputting time step 0.003135 during load step : 1
+Outputting time step 0.00314 during load step : 1
+Outputting time step 0.003145 during load step : 1
+Outputting time step 0.00315 during load step : 1
+Outputting time step 0.003155 during load step : 1
+Outputting time step 0.00316 during load step : 1
+Outputting time step 0.003165 during load step : 1
+Outputting time step 0.00317 during load step : 1
+Outputting time step 0.003175 during load step : 1
+Outputting time step 0.00318 during load step : 1
+Outputting time step 0.003185 during load step : 1
+Outputting time step 0.00319 during load step : 1
+Outputting time step 0.003195 during load step : 1
+Outputting time step 0.0032 during load step : 1
+Outputting time step 0.003205 during load step : 1
+Outputting time step 0.00321 during load step : 1
+Outputting time step 0.003215 during load step : 1
+Outputting time step 0.00322 during load step : 1
+Outputting time step 0.003225 during load step : 1
+Outputting time step 0.00323 during load step : 1
+Outputting time step 0.003235 during load step : 1
+Outputting time step 0.00324 during load step : 1
+Outputting time step 0.003245 during load step : 1
+Outputting time step 0.00325 during load step : 1
+Outputting time step 0.003255 during load step : 1
+Outputting time step 0.00326 during load step : 1
+Outputting time step 0.003265 during load step : 1
+Outputting time step 0.00327 during load step : 1
+Outputting time step 0.003275 during load step : 1
+Outputting time step 0.00328 during load step : 1
+Outputting time step 0.003285 during load step : 1
+Outputting time step 0.00329 during load step : 1
+Outputting time step 0.003295 during load step : 1
+Outputting time step 0.0033 during load step : 1
+Outputting time step 0.003305 during load step : 1
+Outputting time step 0.00331 during load step : 1
+Outputting time step 0.003315 during load step : 1
+Outputting time step 0.00332 during load step : 1
+Outputting time step 0.003325 during load step : 1
+Outputting time step 0.00333 during load step : 1
+Outputting time step 0.003335 during load step : 1
+Outputting time step 0.00334 during load step : 1
+Outputting time step 0.003345 during load step : 1
+Outputting time step 0.00335 during load step : 1
+Outputting time step 0.003355 during load step : 1
+Outputting time step 0.00336 during load step : 1
+Outputting time step 0.003365 during load step : 1
+Outputting time step 0.00337 during load step : 1
+Outputting time step 0.003375 during load step : 1
+Outputting time step 0.00338 during load step : 1
+Outputting time step 0.003385 during load step : 1
+Outputting time step 0.00339 during load step : 1
+Outputting time step 0.003395 during load step : 1
+Outputting time step 0.0034 during load step : 1
+Outputting time step 0.003405 during load step : 1
+Outputting time step 0.00341 during load step : 1
+Outputting time step 0.003415 during load step : 1
+Outputting time step 0.00342 during load step : 1
+Outputting time step 0.003425 during load step : 1
+Outputting time step 0.00343 during load step : 1
+Outputting time step 0.003435 during load step : 1
+Outputting time step 0.00344 during load step : 1
+Outputting time step 0.003445 during load step : 1
+Outputting time step 0.00345 during load step : 1
+Outputting time step 0.003455 during load step : 1
+Outputting time step 0.00346 during load step : 1
+Outputting time step 0.003465 during load step : 1
+Outputting time step 0.00347 during load step : 1
+Outputting time step 0.003475 during load step : 1
+Outputting time step 0.00348 during load step : 1
+Outputting time step 0.003485 during load step : 1
+Outputting time step 0.00349 during load step : 1
+Outputting time step 0.003495 during load step : 1
+Outputting time step 0.0035 during load step : 1
+Outputting time step 0.003505 during load step : 1
+Outputting time step 0.00351 during load step : 1
+Outputting time step 0.003515 during load step : 1
+Outputting time step 0.00352 during load step : 1
+Outputting time step 0.003525 during load step : 1
+Outputting time step 0.00353 during load step : 1
+Outputting time step 0.003535 during load step : 1
+Outputting time step 0.00354 during load step : 1
+Outputting time step 0.003545 during load step : 1
+Outputting time step 0.00355 during load step : 1
+Outputting time step 0.003555 during load step : 1
+Outputting time step 0.00356 during load step : 1
+Outputting time step 0.003565 during load step : 1
+Outputting time step 0.00357 during load step : 1
+Outputting time step 0.003575 during load step : 1
+Outputting time step 0.00358 during load step : 1
+Outputting time step 0.003585 during load step : 1
+Outputting time step 0.00359 during load step : 1
+Outputting time step 0.003595 during load step : 1
+Outputting time step 0.0036 during load step : 1
+Outputting time step 0.003605 during load step : 1
+Outputting time step 0.00361 during load step : 1
+Outputting time step 0.003615 during load step : 1
+Outputting time step 0.00362 during load step : 1
+Outputting time step 0.003625 during load step : 1
+Outputting time step 0.00363 during load step : 1
+Outputting time step 0.003635 during load step : 1
+Outputting time step 0.00364 during load step : 1
+Outputting time step 0.003645 during load step : 1
+Outputting time step 0.00365 during load step : 1
+Outputting time step 0.003655 during load step : 1
+Outputting time step 0.00366 during load step : 1
+Outputting time step 0.003665 during load step : 1
+Outputting time step 0.00367 during load step : 1
+Outputting time step 0.003675 during load step : 1
+Outputting time step 0.00368 during load step : 1
+Outputting time step 0.003685 during load step : 1
+Outputting time step 0.00369 during load step : 1
+Outputting time step 0.003695 during load step : 1
+Outputting time step 0.0037 during load step : 1
+Outputting time step 0.003705 during load step : 1
+Outputting time step 0.00371 during load step : 1
+Outputting time step 0.003715 during load step : 1
+Outputting time step 0.00372 during load step : 1
+Outputting time step 0.003725 during load step : 1
+Outputting time step 0.00373 during load step : 1
+Outputting time step 0.003735 during load step : 1
+Outputting time step 0.00374 during load step : 1
+Outputting time step 0.003745 during load step : 1
+Outputting time step 0.00375 during load step : 1
+Outputting time step 0.003755 during load step : 1
+Outputting time step 0.00376 during load step : 1
+Outputting time step 0.003765 during load step : 1
+Outputting time step 0.00377 during load step : 1
+Outputting time step 0.003775 during load step : 1
+Outputting time step 0.00378 during load step : 1
+Outputting time step 0.003785 during load step : 1
+Outputting time step 0.00379 during load step : 1
+Outputting time step 0.003795 during load step : 1
+Outputting time step 0.0038 during load step : 1
+Outputting time step 0.003805 during load step : 1
+Outputting time step 0.00381 during load step : 1
+Outputting time step 0.003815 during load step : 1
+Outputting time step 0.00382 during load step : 1
+Outputting time step 0.003825 during load step : 1
+Outputting time step 0.00383 during load step : 1
+Outputting time step 0.003835 during load step : 1
+Outputting time step 0.00384 during load step : 1
+Outputting time step 0.003845 during load step : 1
+Outputting time step 0.00385 during load step : 1
+Outputting time step 0.003855 during load step : 1
+Outputting time step 0.00386 during load step : 1
+Outputting time step 0.003865 during load step : 1
+Outputting time step 0.00387 during load step : 1
+Outputting time step 0.003875 during load step : 1
+Outputting time step 0.00388 during load step : 1
+Outputting time step 0.003885 during load step : 1
+Outputting time step 0.00389 during load step : 1
+Outputting time step 0.003895 during load step : 1
+Outputting time step 0.0039 during load step : 1
+Outputting time step 0.003905 during load step : 1
+Outputting time step 0.00391 during load step : 1
+Outputting time step 0.003915 during load step : 1
+Outputting time step 0.00392 during load step : 1
+Outputting time step 0.003925 during load step : 1
+Outputting time step 0.00393 during load step : 1
+Outputting time step 0.003935 during load step : 1
+Outputting time step 0.00394 during load step : 1
+Outputting time step 0.003945 during load step : 1
+Outputting time step 0.00395 during load step : 1
+Outputting time step 0.003955 during load step : 1
+Outputting time step 0.00396 during load step : 1
+Outputting time step 0.003965 during load step : 1
+Outputting time step 0.00397 during load step : 1
+Outputting time step 0.003975 during load step : 1
+Outputting time step 0.00398 during load step : 1
+Outputting time step 0.003985 during load step : 1
+Outputting time step 0.00399 during load step : 1
+Outputting time step 0.003995 during load step : 1
+Outputting time step 0.004 during load step : 1
+Outputting time step 0.004005 during load step : 1
+Outputting time step 0.00401 during load step : 1
+Outputting time step 0.004015 during load step : 1
+Outputting time step 0.00402 during load step : 1
+Outputting time step 0.004025 during load step : 1
+Outputting time step 0.00403 during load step : 1
+Outputting time step 0.004035 during load step : 1
+Outputting time step 0.00404 during load step : 1
+Outputting time step 0.004045 during load step : 1
+Outputting time step 0.00405 during load step : 1
+Outputting time step 0.004055 during load step : 1
+Outputting time step 0.00406 during load step : 1
+Outputting time step 0.004065 during load step : 1
+Outputting time step 0.00407 during load step : 1
+Outputting time step 0.004075 during load step : 1
+Outputting time step 0.00408 during load step : 1
+Outputting time step 0.004085 during load step : 1
+Outputting time step 0.00409 during load step : 1
+Outputting time step 0.004095 during load step : 1
+Outputting time step 0.0041 during load step : 1
+Outputting time step 0.004105 during load step : 1
+Outputting time step 0.00411 during load step : 1
+Outputting time step 0.004115 during load step : 1
+Outputting time step 0.00412 during load step : 1
+Outputting time step 0.004125 during load step : 1
+Outputting time step 0.00413 during load step : 1
+Outputting time step 0.004135 during load step : 1
+Outputting time step 0.00414 during load step : 1
+Outputting time step 0.004145 during load step : 1
+Outputting time step 0.00415 during load step : 1
+Outputting time step 0.004155 during load step : 1
+Outputting time step 0.00416 during load step : 1
+Outputting time step 0.004165 during load step : 1
+Outputting time step 0.00417 during load step : 1
+Outputting time step 0.004175 during load step : 1
+Outputting time step 0.00418 during load step : 1
+Outputting time step 0.004185 during load step : 1
+Outputting time step 0.00419 during load step : 1
+Outputting time step 0.004195 during load step : 1
+Outputting time step 0.0042 during load step : 1
+Outputting time step 0.004205 during load step : 1
+Outputting time step 0.00421 during load step : 1
+Outputting time step 0.004215 during load step : 1
+Outputting time step 0.00422 during load step : 1
+Outputting time step 0.004225 during load step : 1
+Outputting time step 0.00423 during load step : 1
+Outputting time step 0.004235 during load step : 1
+Outputting time step 0.00424 during load step : 1
+Outputting time step 0.004245 during load step : 1
+Outputting time step 0.00425 during load step : 1
+Outputting time step 0.004255 during load step : 1
+Outputting time step 0.00426 during load step : 1
+Outputting time step 0.004265 during load step : 1
+Outputting time step 0.00427 during load step : 1
+Outputting time step 0.004275 during load step : 1
+Outputting time step 0.00428 during load step : 1
+Outputting time step 0.004285 during load step : 1
+Outputting time step 0.00429 during load step : 1
+Outputting time step 0.004295 during load step : 1
+Outputting time step 0.0043 during load step : 1
+Outputting time step 0.004305 during load step : 1
+Outputting time step 0.00431 during load step : 1
+Outputting time step 0.004315 during load step : 1
+Outputting time step 0.00432 during load step : 1
+Outputting time step 0.004325 during load step : 1
+Outputting time step 0.00433 during load step : 1
+Outputting time step 0.004335 during load step : 1
+Outputting time step 0.00434 during load step : 1
+Outputting time step 0.004345 during load step : 1
+Outputting time step 0.00435 during load step : 1
+Outputting time step 0.004355 during load step : 1
+Outputting time step 0.00436 during load step : 1
+Outputting time step 0.004365 during load step : 1
+Outputting time step 0.00437 during load step : 1
+Outputting time step 0.004375 during load step : 1
+Outputting time step 0.00438 during load step : 1
+Outputting time step 0.004385 during load step : 1
+Outputting time step 0.00439 during load step : 1
+Outputting time step 0.004395 during load step : 1
+Outputting time step 0.0044 during load step : 1
+Outputting time step 0.004405 during load step : 1
+Outputting time step 0.00441 during load step : 1
+Outputting time step 0.004415 during load step : 1
+Outputting time step 0.00442 during load step : 1
+Outputting time step 0.004425 during load step : 1
+Outputting time step 0.00443 during load step : 1
+Outputting time step 0.004435 during load step : 1
+Outputting time step 0.00444 during load step : 1
+Outputting time step 0.004445 during load step : 1
+Outputting time step 0.00445 during load step : 1
+Outputting time step 0.004455 during load step : 1
+Outputting time step 0.00446 during load step : 1
+Outputting time step 0.004465 during load step : 1
+Outputting time step 0.00447 during load step : 1
+Outputting time step 0.004475 during load step : 1
+Outputting time step 0.00448 during load step : 1
+Outputting time step 0.004485 during load step : 1
+Outputting time step 0.00449 during load step : 1
+Outputting time step 0.004495 during load step : 1
+Outputting time step 0.0045 during load step : 1
+Outputting time step 0.004505 during load step : 1
+Outputting time step 0.00451 during load step : 1
+Outputting time step 0.004515 during load step : 1
+Outputting time step 0.00452 during load step : 1
+Outputting time step 0.004525 during load step : 1
+Outputting time step 0.00453 during load step : 1
+Outputting time step 0.004535 during load step : 1
+Outputting time step 0.00454 during load step : 1
+Outputting time step 0.004545 during load step : 1
+Outputting time step 0.00455 during load step : 1
+Outputting time step 0.004555 during load step : 1
+Outputting time step 0.00456 during load step : 1
+Outputting time step 0.004565 during load step : 1
+Outputting time step 0.00457 during load step : 1
+Outputting time step 0.004575 during load step : 1
+Outputting time step 0.00458 during load step : 1
+Outputting time step 0.004585 during load step : 1
+Outputting time step 0.00459 during load step : 1
+Outputting time step 0.004595 during load step : 1
+Outputting time step 0.0046 during load step : 1
+Outputting time step 0.004605 during load step : 1
+Outputting time step 0.00461 during load step : 1
+Outputting time step 0.004615 during load step : 1
+Outputting time step 0.00462 during load step : 1
+Outputting time step 0.004625 during load step : 1
+Outputting time step 0.00463 during load step : 1
+Outputting time step 0.004635 during load step : 1
+Outputting time step 0.00464 during load step : 1
+Outputting time step 0.004645 during load step : 1
+Outputting time step 0.00465 during load step : 1
+Outputting time step 0.004655 during load step : 1
+Outputting time step 0.00466 during load step : 1
+Outputting time step 0.004665 during load step : 1
+Outputting time step 0.00467 during load step : 1
+Outputting time step 0.004675 during load step : 1
+Outputting time step 0.00468 during load step : 1
+Outputting time step 0.004685 during load step : 1
+Outputting time step 0.00469 during load step : 1
+Outputting time step 0.004695 during load step : 1
+Outputting time step 0.0047 during load step : 1
+Outputting time step 0.004705 during load step : 1
+Outputting time step 0.00471 during load step : 1
+Outputting time step 0.004715 during load step : 1
+Outputting time step 0.00472 during load step : 1
+Outputting time step 0.004725 during load step : 1
+Outputting time step 0.00473 during load step : 1
+Outputting time step 0.004735 during load step : 1
+Outputting time step 0.00474 during load step : 1
+Outputting time step 0.004745 during load step : 1
+Outputting time step 0.00475 during load step : 1
+Outputting time step 0.004755 during load step : 1
+Outputting time step 0.00476 during load step : 1
+Outputting time step 0.004765 during load step : 1
+Outputting time step 0.00477 during load step : 1
+Outputting time step 0.004775 during load step : 1
+Outputting time step 0.00478 during load step : 1
+Outputting time step 0.004785 during load step : 1
+Outputting time step 0.00479 during load step : 1
+Outputting time step 0.004795 during load step : 1
+Outputting time step 0.0048 during load step : 1
+Outputting time step 0.004805 during load step : 1
+Outputting time step 0.00481 during load step : 1
+Outputting time step 0.004815 during load step : 1
+Outputting time step 0.00482 during load step : 1
+Outputting time step 0.004825 during load step : 1
+Outputting time step 0.00483 during load step : 1
+Outputting time step 0.004835 during load step : 1
+Outputting time step 0.00484 during load step : 1
+Outputting time step 0.004845 during load step : 1
+Outputting time step 0.00485 during load step : 1
+Outputting time step 0.004855 during load step : 1
+Outputting time step 0.00486 during load step : 1
+Outputting time step 0.004865 during load step : 1
+Outputting time step 0.00487 during load step : 1
+Outputting time step 0.004875 during load step : 1
+Outputting time step 0.00488 during load step : 1
+Outputting time step 0.004885 during load step : 1
+Outputting time step 0.00489 during load step : 1
+Outputting time step 0.004895 during load step : 1
+Outputting time step 0.0049 during load step : 1
+Outputting time step 0.004905 during load step : 1
+Outputting time step 0.00491 during load step : 1
+Outputting time step 0.004915 during load step : 1
+Outputting time step 0.00492 during load step : 1
+Outputting time step 0.004925 during load step : 1
+Outputting time step 0.00493 during load step : 1
+Outputting time step 0.004935 during load step : 1
+Outputting time step 0.00494 during load step : 1
+Outputting time step 0.004945 during load step : 1
+Outputting time step 0.00495 during load step : 1
+Outputting time step 0.004955 during load step : 1
+Outputting time step 0.00496 during load step : 1
+Outputting time step 0.004965 during load step : 1
+Outputting time step 0.00497 during load step : 1
+Outputting time step 0.004975 during load step : 1
+Outputting time step 0.00498 during load step : 1
+Outputting time step 0.004985 during load step : 1
+Outputting time step 0.00499 during load step : 1
+Outputting time step 0.004995 during load step : 1
+Outputting time step 0.005 during load step : 1
+Outputting time step 0.005005 during load step : 1
+Outputting time step 0.00501 during load step : 1
+Outputting time step 0.005015 during load step : 1
+Outputting time step 0.00502 during load step : 1
+Outputting time step 0.005025 during load step : 1
+Outputting time step 0.00503 during load step : 1
+Outputting time step 0.005035 during load step : 1
+Outputting time step 0.00504 during load step : 1
+Outputting time step 0.005045 during load step : 1
+Outputting time step 0.00505 during load step : 1
+Outputting time step 0.005055 during load step : 1
+Outputting time step 0.00506 during load step : 1
+Outputting time step 0.005065 during load step : 1
+Outputting time step 0.00507 during load step : 1
+Outputting time step 0.005075 during load step : 1
+Outputting time step 0.00508 during load step : 1
+Outputting time step 0.005085 during load step : 1
+Outputting time step 0.00509 during load step : 1
+Outputting time step 0.005095 during load step : 1
+Outputting time step 0.0051 during load step : 1
+Outputting time step 0.005105 during load step : 1
+Outputting time step 0.00511 during load step : 1
+Outputting time step 0.005115 during load step : 1
+Outputting time step 0.00512 during load step : 1
+Outputting time step 0.005125 during load step : 1
+Outputting time step 0.00513 during load step : 1
+Outputting time step 0.005135 during load step : 1
+Outputting time step 0.00514 during load step : 1
+Outputting time step 0.005145 during load step : 1
+Outputting time step 0.00515 during load step : 1
+Outputting time step 0.005155 during load step : 1
+Outputting time step 0.00516 during load step : 1
+Outputting time step 0.005165 during load step : 1
+Outputting time step 0.00517 during load step : 1
+Outputting time step 0.005175 during load step : 1
+Outputting time step 0.00518 during load step : 1
+Outputting time step 0.005185 during load step : 1
+Outputting time step 0.00519 during load step : 1
+Outputting time step 0.005195 during load step : 1
+Outputting time step 0.0052 during load step : 1
+Outputting time step 0.005205 during load step : 1
+Outputting time step 0.00521 during load step : 1
+Outputting time step 0.005215 during load step : 1
+Outputting time step 0.00522 during load step : 1
+Outputting time step 0.005225 during load step : 1
+Outputting time step 0.00523 during load step : 1
+Outputting time step 0.005235 during load step : 1
+Outputting time step 0.00524 during load step : 1
+Outputting time step 0.005245 during load step : 1
+Outputting time step 0.00525 during load step : 1
+Outputting time step 0.005255 during load step : 1
+Outputting time step 0.00526 during load step : 1
+Outputting time step 0.005265 during load step : 1
+Outputting time step 0.00527 during load step : 1
+Outputting time step 0.005275 during load step : 1
+Outputting time step 0.00528 during load step : 1
+Outputting time step 0.005285 during load step : 1
+Outputting time step 0.00529 during load step : 1
+Outputting time step 0.005295 during load step : 1
+Outputting time step 0.0053 during load step : 1
+Outputting time step 0.005305 during load step : 1
+Outputting time step 0.00531 during load step : 1
+Outputting time step 0.005315 during load step : 1
+Outputting time step 0.00532 during load step : 1
+Outputting time step 0.005325 during load step : 1
+Outputting time step 0.00533 during load step : 1
+Outputting time step 0.005335 during load step : 1
+Outputting time step 0.00534 during load step : 1
+Outputting time step 0.005345 during load step : 1
+Outputting time step 0.00535 during load step : 1
+Outputting time step 0.005355 during load step : 1
+Outputting time step 0.00536 during load step : 1
+Outputting time step 0.005365 during load step : 1
+Outputting time step 0.00537 during load step : 1
+Outputting time step 0.005375 during load step : 1
+Outputting time step 0.00538 during load step : 1
+Outputting time step 0.005385 during load step : 1
+Outputting time step 0.00539 during load step : 1
+Outputting time step 0.005395 during load step : 1
+Outputting time step 0.0054 during load step : 1
+Outputting time step 0.005405 during load step : 1
+Outputting time step 0.00541 during load step : 1
+Outputting time step 0.005415 during load step : 1
+Outputting time step 0.00542 during load step : 1
+Outputting time step 0.005425 during load step : 1
+Outputting time step 0.00543 during load step : 1
+Outputting time step 0.005435 during load step : 1
+Outputting time step 0.00544 during load step : 1
+Outputting time step 0.005445 during load step : 1
+Outputting time step 0.00545 during load step : 1
+Outputting time step 0.005455 during load step : 1
+Outputting time step 0.00546 during load step : 1
+Outputting time step 0.005465 during load step : 1
+Outputting time step 0.00547 during load step : 1
+Outputting time step 0.005475 during load step : 1
+Outputting time step 0.00548 during load step : 1
+Outputting time step 0.005485 during load step : 1
+Outputting time step 0.00549 during load step : 1
+Outputting time step 0.005495 during load step : 1
+Outputting time step 0.0055 during load step : 1
+Outputting time step 0.005505 during load step : 1
+Outputting time step 0.00551 during load step : 1
+Outputting time step 0.005515 during load step : 1
+Outputting time step 0.00552 during load step : 1
+Outputting time step 0.005525 during load step : 1
+Outputting time step 0.00553 during load step : 1
+Outputting time step 0.005535 during load step : 1
+Outputting time step 0.00554 during load step : 1
+Outputting time step 0.005545 during load step : 1
+Outputting time step 0.00555 during load step : 1
+Outputting time step 0.005555 during load step : 1
+Outputting time step 0.00556 during load step : 1
+Outputting time step 0.005565 during load step : 1
+Outputting time step 0.00557 during load step : 1
+Outputting time step 0.005575 during load step : 1
+Outputting time step 0.00558 during load step : 1
+Outputting time step 0.005585 during load step : 1
+Outputting time step 0.00559 during load step : 1
+Outputting time step 0.005595 during load step : 1
+Outputting time step 0.0056 during load step : 1
+Outputting time step 0.005605 during load step : 1
+Outputting time step 0.00561 during load step : 1
+Outputting time step 0.005615 during load step : 1
+Outputting time step 0.00562 during load step : 1
+Outputting time step 0.005625 during load step : 1
+Outputting time step 0.00563 during load step : 1
+Outputting time step 0.005635 during load step : 1
+Outputting time step 0.00564 during load step : 1
+Outputting time step 0.005645 during load step : 1
+Outputting time step 0.00565 during load step : 1
+Outputting time step 0.005655 during load step : 1
+Outputting time step 0.00566 during load step : 1
+Outputting time step 0.005665 during load step : 1
+Outputting time step 0.00567 during load step : 1
+Outputting time step 0.005675 during load step : 1
+Outputting time step 0.00568 during load step : 1
+Outputting time step 0.005685 during load step : 1
+Outputting time step 0.00569 during load step : 1
+Outputting time step 0.005695 during load step : 1
+Outputting time step 0.0057 during load step : 1
+Outputting time step 0.005705 during load step : 1
+Outputting time step 0.00571 during load step : 1
+Outputting time step 0.005715 during load step : 1
+Outputting time step 0.00572 during load step : 1
+Outputting time step 0.005725 during load step : 1
+Outputting time step 0.00573 during load step : 1
+Outputting time step 0.005735 during load step : 1
+Outputting time step 0.00574 during load step : 1
+Outputting time step 0.005745 during load step : 1
+Outputting time step 0.00575 during load step : 1
+Outputting time step 0.005755 during load step : 1
+Outputting time step 0.00576 during load step : 1
+Outputting time step 0.005765 during load step : 1
+Outputting time step 0.00577 during load step : 1
+Outputting time step 0.005775 during load step : 1
+Outputting time step 0.00578 during load step : 1
+Outputting time step 0.005785 during load step : 1
+Outputting time step 0.00579 during load step : 1
+Outputting time step 0.005795 during load step : 1
+Outputting time step 0.0058 during load step : 1
+Outputting time step 0.005805 during load step : 1
+Outputting time step 0.00581 during load step : 1
+Outputting time step 0.005815 during load step : 1
+Outputting time step 0.00582 during load step : 1
+Outputting time step 0.005825 during load step : 1
+Outputting time step 0.00583 during load step : 1
+Outputting time step 0.005835 during load step : 1
+Outputting time step 0.00584 during load step : 1
+Outputting time step 0.005845 during load step : 1
+Outputting time step 0.00585 during load step : 1
+Outputting time step 0.005855 during load step : 1
+Outputting time step 0.00586 during load step : 1
+Outputting time step 0.005865 during load step : 1
+Outputting time step 0.00587 during load step : 1
+Outputting time step 0.005875 during load step : 1
+Outputting time step 0.00588 during load step : 1
+Outputting time step 0.005885 during load step : 1
+Outputting time step 0.00589 during load step : 1
+Outputting time step 0.005895 during load step : 1
+Outputting time step 0.0059 during load step : 1
+Outputting time step 0.005905 during load step : 1
+Outputting time step 0.00591 during load step : 1
+Outputting time step 0.005915 during load step : 1
+Outputting time step 0.00592 during load step : 1
+Outputting time step 0.005925 during load step : 1
+Outputting time step 0.00593 during load step : 1
+Outputting time step 0.005935 during load step : 1
+Outputting time step 0.00594 during load step : 1
+Outputting time step 0.005945 during load step : 1
+Outputting time step 0.00595 during load step : 1
+Outputting time step 0.005955 during load step : 1
+Outputting time step 0.00596 during load step : 1
+Outputting time step 0.005965 during load step : 1
+Outputting time step 0.00597 during load step : 1
+Outputting time step 0.005975 during load step : 1
+Outputting time step 0.00598 during load step : 1
+Outputting time step 0.005985 during load step : 1
+Outputting time step 0.00599 during load step : 1
+Outputting time step 0.005995 during load step : 1
+Outputting time step 0.006 during load step : 1
+Outputting time step 0.006005 during load step : 1
+Outputting time step 0.00601 during load step : 1
+Outputting time step 0.006015 during load step : 1
+Outputting time step 0.00602 during load step : 1
+Outputting time step 0.006025 during load step : 1
+Outputting time step 0.00603 during load step : 1
+Outputting time step 0.006035 during load step : 1
+Outputting time step 0.00604 during load step : 1
+Outputting time step 0.006045 during load step : 1
+Outputting time step 0.00605 during load step : 1
+Outputting time step 0.006055 during load step : 1
+Outputting time step 0.00606 during load step : 1
+Outputting time step 0.006065 during load step : 1
+Outputting time step 0.00607 during load step : 1
+Outputting time step 0.006075 during load step : 1
+Outputting time step 0.00608 during load step : 1
+Outputting time step 0.006085 during load step : 1
+Outputting time step 0.00609 during load step : 1
+Outputting time step 0.006095 during load step : 1
+Outputting time step 0.0061 during load step : 1
+Outputting time step 0.006105 during load step : 1
+Outputting time step 0.00611 during load step : 1
+Outputting time step 0.006115 during load step : 1
+Outputting time step 0.00612 during load step : 1
+Outputting time step 0.006125 during load step : 1
+Outputting time step 0.00613 during load step : 1
+Outputting time step 0.006135 during load step : 1
+Outputting time step 0.00614 during load step : 1
+Outputting time step 0.006145 during load step : 1
+Outputting time step 0.00615 during load step : 1
+Outputting time step 0.006155 during load step : 1
+Outputting time step 0.00616 during load step : 1
+Outputting time step 0.006165 during load step : 1
+Outputting time step 0.00617 during load step : 1
+Outputting time step 0.006175 during load step : 1
+Outputting time step 0.00618 during load step : 1
+Outputting time step 0.006185 during load step : 1
+Outputting time step 0.00619 during load step : 1
+Outputting time step 0.006195 during load step : 1
+Outputting time step 0.0062 during load step : 1
+Outputting time step 0.006205 during load step : 1
+Outputting time step 0.00621 during load step : 1
+Outputting time step 0.006215 during load step : 1
+Outputting time step 0.00622 during load step : 1
+Outputting time step 0.006225 during load step : 1
+Outputting time step 0.00623 during load step : 1
+Outputting time step 0.006235 during load step : 1
+Outputting time step 0.00624 during load step : 1
+Outputting time step 0.006245 during load step : 1
+Outputting time step 0.00625 during load step : 1
+Outputting time step 0.006255 during load step : 1
+Outputting time step 0.00626 during load step : 1
+Outputting time step 0.006265 during load step : 1
+Outputting time step 0.00627 during load step : 1
+Outputting time step 0.006275 during load step : 1
+Outputting time step 0.00628 during load step : 1
+Outputting time step 0.006285 during load step : 1
+Outputting time step 0.00629 during load step : 1
+Outputting time step 0.006295 during load step : 1
+Outputting time step 0.0063 during load step : 1
+Outputting time step 0.006305 during load step : 1
+Outputting time step 0.00631 during load step : 1
+Outputting time step 0.006315 during load step : 1
+Outputting time step 0.00632 during load step : 1
+Outputting time step 0.006325 during load step : 1
+Outputting time step 0.00633 during load step : 1
+Outputting time step 0.006335 during load step : 1
+Outputting time step 0.00634 during load step : 1
+Outputting time step 0.006345 during load step : 1
+Outputting time step 0.00635 during load step : 1
+Outputting time step 0.006355 during load step : 1
+Outputting time step 0.00636 during load step : 1
+Outputting time step 0.006365 during load step : 1
+Outputting time step 0.00637 during load step : 1
+Outputting time step 0.006375 during load step : 1
+Outputting time step 0.00638 during load step : 1
+Outputting time step 0.006385 during load step : 1
+Outputting time step 0.00639 during load step : 1
+Outputting time step 0.006395 during load step : 1
+Outputting time step 0.0064 during load step : 1
+Outputting time step 0.006405 during load step : 1
+Outputting time step 0.00641 during load step : 1
+Outputting time step 0.006415 during load step : 1
+Outputting time step 0.00642 during load step : 1
+Outputting time step 0.006425 during load step : 1
+Outputting time step 0.00643 during load step : 1
+Outputting time step 0.006435 during load step : 1
+Outputting time step 0.00644 during load step : 1
+Outputting time step 0.006445 during load step : 1
+Outputting time step 0.00645 during load step : 1
+Outputting time step 0.006455 during load step : 1
+Outputting time step 0.00646 during load step : 1
+Outputting time step 0.006465 during load step : 1
+Outputting time step 0.00647 during load step : 1
+Outputting time step 0.006475 during load step : 1
+Outputting time step 0.00648 during load step : 1
+Outputting time step 0.006485 during load step : 1
+Outputting time step 0.00649 during load step : 1
+Outputting time step 0.006495 during load step : 1
+Outputting time step 0.0065 during load step : 1
+Outputting time step 0.006505 during load step : 1
+Outputting time step 0.00651 during load step : 1
+Outputting time step 0.006515 during load step : 1
+Outputting time step 0.00652 during load step : 1
+Outputting time step 0.006525 during load step : 1
+Outputting time step 0.00653 during load step : 1
+Outputting time step 0.006535 during load step : 1
+Outputting time step 0.00654 during load step : 1
+Outputting time step 0.006545 during load step : 1
+Outputting time step 0.00655 during load step : 1
+Outputting time step 0.006555 during load step : 1
+Outputting time step 0.00656 during load step : 1
+Outputting time step 0.006565 during load step : 1
+Outputting time step 0.00657 during load step : 1
+Outputting time step 0.006575 during load step : 1
+Outputting time step 0.00658 during load step : 1
+Outputting time step 0.006585 during load step : 1
+Outputting time step 0.00659 during load step : 1
+Outputting time step 0.006595 during load step : 1
+Outputting time step 0.0066 during load step : 1
+Outputting time step 0.006605 during load step : 1
+Outputting time step 0.00661 during load step : 1
+Outputting time step 0.006615 during load step : 1
+Outputting time step 0.00662 during load step : 1
+Outputting time step 0.006625 during load step : 1
+Outputting time step 0.00663 during load step : 1
+Outputting time step 0.006635 during load step : 1
+Outputting time step 0.00664 during load step : 1
+Outputting time step 0.006645 during load step : 1
+Outputting time step 0.00665 during load step : 1
+Outputting time step 0.006655 during load step : 1
+Outputting time step 0.00666 during load step : 1
+Outputting time step 0.006665 during load step : 1
+Outputting time step 0.00667 during load step : 1
+Outputting time step 0.006675 during load step : 1
+Outputting time step 0.00668 during load step : 1
+Outputting time step 0.006685 during load step : 1
+Outputting time step 0.00669 during load step : 1
+Outputting time step 0.006695 during load step : 1
+Outputting time step 0.0067 during load step : 1
+Outputting time step 0.006705 during load step : 1
+Outputting time step 0.00671 during load step : 1
+Outputting time step 0.006715 during load step : 1
+Outputting time step 0.00672 during load step : 1
+Outputting time step 0.006725 during load step : 1
+Outputting time step 0.00673 during load step : 1
+Outputting time step 0.006735 during load step : 1
+Outputting time step 0.00674 during load step : 1
+Outputting time step 0.006745 during load step : 1
+Outputting time step 0.00675 during load step : 1
+Outputting time step 0.006755 during load step : 1
+Outputting time step 0.00676 during load step : 1
+Outputting time step 0.006765 during load step : 1
+Outputting time step 0.00677 during load step : 1
+Outputting time step 0.006775 during load step : 1
+Outputting time step 0.00678 during load step : 1
+Outputting time step 0.006785 during load step : 1
+Outputting time step 0.00679 during load step : 1
+Outputting time step 0.006795 during load step : 1
+Outputting time step 0.0068 during load step : 1
+Outputting time step 0.006805 during load step : 1
+Outputting time step 0.00681 during load step : 1
+Outputting time step 0.006815 during load step : 1
+Outputting time step 0.00682 during load step : 1
+Outputting time step 0.006825 during load step : 1
+Outputting time step 0.00683 during load step : 1
+Outputting time step 0.006835 during load step : 1
+Outputting time step 0.00684 during load step : 1
+Outputting time step 0.006845 during load step : 1
+Outputting time step 0.00685 during load step : 1
+Outputting time step 0.006855 during load step : 1
+Outputting time step 0.00686 during load step : 1
+Outputting time step 0.006865 during load step : 1
+Outputting time step 0.00687 during load step : 1
+Outputting time step 0.006875 during load step : 1
+Outputting time step 0.00688 during load step : 1
+Outputting time step 0.006885 during load step : 1
+Outputting time step 0.00689 during load step : 1
+Outputting time step 0.006895 during load step : 1
+Outputting time step 0.0069 during load step : 1
+Outputting time step 0.006905 during load step : 1
+Outputting time step 0.00691 during load step : 1
+Outputting time step 0.006915 during load step : 1
+Outputting time step 0.00692 during load step : 1
+Outputting time step 0.006925 during load step : 1
+Outputting time step 0.00693 during load step : 1
+Outputting time step 0.006935 during load step : 1
+Outputting time step 0.00694 during load step : 1
+Outputting time step 0.006945 during load step : 1
+Outputting time step 0.00695 during load step : 1
+Outputting time step 0.006955 during load step : 1
+Outputting time step 0.00696 during load step : 1
+Outputting time step 0.006965 during load step : 1
+Outputting time step 0.00697 during load step : 1
+Outputting time step 0.006975 during load step : 1
+Outputting time step 0.00698 during load step : 1
+Outputting time step 0.006985 during load step : 1
+Outputting time step 0.00699 during load step : 1
+Outputting time step 0.006995 during load step : 1
+Outputting time step 0.007 during load step : 1
+Outputting time step 0.007005 during load step : 1
+Outputting time step 0.00701 during load step : 1
+Outputting time step 0.007015 during load step : 1
+Outputting time step 0.00702 during load step : 1
+Outputting time step 0.007025 during load step : 1
+Outputting time step 0.00703 during load step : 1
+Outputting time step 0.007035 during load step : 1
+Outputting time step 0.00704 during load step : 1
+Outputting time step 0.007045 during load step : 1
+Outputting time step 0.00705 during load step : 1
+Outputting time step 0.007055 during load step : 1
+Outputting time step 0.00706 during load step : 1
+Outputting time step 0.007065 during load step : 1
+Outputting time step 0.00707 during load step : 1
+Outputting time step 0.007075 during load step : 1
+Outputting time step 0.00708 during load step : 1
+Outputting time step 0.007085 during load step : 1
+Outputting time step 0.00709 during load step : 1
+Outputting time step 0.007095 during load step : 1
+Outputting time step 0.0071 during load step : 1
+Outputting time step 0.007105 during load step : 1
+Outputting time step 0.00711 during load step : 1
+Outputting time step 0.007115 during load step : 1
+Outputting time step 0.00712 during load step : 1
+Outputting time step 0.007125 during load step : 1
+Outputting time step 0.00713 during load step : 1
+Outputting time step 0.007135 during load step : 1
+Outputting time step 0.00714 during load step : 1
+Outputting time step 0.007145 during load step : 1
+Outputting time step 0.00715 during load step : 1
+Outputting time step 0.007155 during load step : 1
+Outputting time step 0.00716 during load step : 1
+Outputting time step 0.007165 during load step : 1
+Outputting time step 0.00717 during load step : 1
+Outputting time step 0.007175 during load step : 1
+Outputting time step 0.00718 during load step : 1
+Outputting time step 0.007185 during load step : 1
+Outputting time step 0.00719 during load step : 1
+Outputting time step 0.007195 during load step : 1
+Outputting time step 0.0072 during load step : 1
+Outputting time step 0.007205 during load step : 1
+Outputting time step 0.00721 during load step : 1
+Outputting time step 0.007215 during load step : 1
+Outputting time step 0.00722 during load step : 1
+Outputting time step 0.007225 during load step : 1
+Outputting time step 0.00723 during load step : 1
+Outputting time step 0.007235 during load step : 1
+Outputting time step 0.00724 during load step : 1
+Outputting time step 0.007245 during load step : 1
+Outputting time step 0.00725 during load step : 1
+Outputting time step 0.007255 during load step : 1
+Outputting time step 0.00726 during load step : 1
+Outputting time step 0.007265 during load step : 1
+Outputting time step 0.00727 during load step : 1
+Outputting time step 0.007275 during load step : 1
+Outputting time step 0.00728 during load step : 1
+Outputting time step 0.007285 during load step : 1
+Outputting time step 0.00729 during load step : 1
+Outputting time step 0.007295 during load step : 1
+Outputting time step 0.0073 during load step : 1
+Outputting time step 0.007305 during load step : 1
+Outputting time step 0.00731 during load step : 1
+Outputting time step 0.007315 during load step : 1
+Outputting time step 0.00732 during load step : 1
+Outputting time step 0.007325 during load step : 1
+Outputting time step 0.00733 during load step : 1
+Outputting time step 0.007335 during load step : 1
+Outputting time step 0.00734 during load step : 1
+Outputting time step 0.007345 during load step : 1
+Outputting time step 0.00735 during load step : 1
+Outputting time step 0.007355 during load step : 1
+Outputting time step 0.00736 during load step : 1
+Outputting time step 0.007365 during load step : 1
+Outputting time step 0.00737 during load step : 1
+Outputting time step 0.007375 during load step : 1
+Outputting time step 0.00738 during load step : 1
+Outputting time step 0.007385 during load step : 1
+Outputting time step 0.00739 during load step : 1
+Outputting time step 0.007395 during load step : 1
+Outputting time step 0.0074 during load step : 1
+Outputting time step 0.007405 during load step : 1
+Outputting time step 0.00741 during load step : 1
+Outputting time step 0.007415 during load step : 1
+Outputting time step 0.00742 during load step : 1
+Outputting time step 0.007425 during load step : 1
+Outputting time step 0.00743 during load step : 1
+Outputting time step 0.007435 during load step : 1
+Outputting time step 0.00744 during load step : 1
+Outputting time step 0.007445 during load step : 1
+Outputting time step 0.00745 during load step : 1
+Outputting time step 0.007455 during load step : 1
+Outputting time step 0.00746 during load step : 1
+Outputting time step 0.007465 during load step : 1
+Outputting time step 0.00747 during load step : 1
+Outputting time step 0.007475 during load step : 1
+Outputting time step 0.00748 during load step : 1
+Outputting time step 0.007485 during load step : 1
+Outputting time step 0.00749 during load step : 1
+Outputting time step 0.007495 during load step : 1
+Outputting time step 0.0075 during load step : 1
+Outputting time step 0.007505 during load step : 1
+Outputting time step 0.00751 during load step : 1
+Outputting time step 0.007515 during load step : 1
+Outputting time step 0.00752 during load step : 1
+Outputting time step 0.007525 during load step : 1
+Outputting time step 0.00753 during load step : 1
+Outputting time step 0.007535 during load step : 1
+Outputting time step 0.00754 during load step : 1
+Outputting time step 0.007545 during load step : 1
+Outputting time step 0.00755 during load step : 1
+Outputting time step 0.007555 during load step : 1
+Outputting time step 0.00756 during load step : 1
+Outputting time step 0.007565 during load step : 1
+Outputting time step 0.00757 during load step : 1
+Outputting time step 0.007575 during load step : 1
+Outputting time step 0.00758 during load step : 1
+Outputting time step 0.007585 during load step : 1
+Outputting time step 0.00759 during load step : 1
+Outputting time step 0.007595 during load step : 1
+Outputting time step 0.0076 during load step : 1
+Outputting time step 0.007605 during load step : 1
+Outputting time step 0.00761 during load step : 1
+Outputting time step 0.007615 during load step : 1
+Outputting time step 0.00762 during load step : 1
+Outputting time step 0.007625 during load step : 1
+Outputting time step 0.00763 during load step : 1
+Outputting time step 0.007635 during load step : 1
+Outputting time step 0.00764 during load step : 1
+Outputting time step 0.007645 during load step : 1
+Outputting time step 0.00765 during load step : 1
+Outputting time step 0.007655 during load step : 1
+Outputting time step 0.00766 during load step : 1
+Outputting time step 0.007665 during load step : 1
+Outputting time step 0.00767 during load step : 1
+Outputting time step 0.007675 during load step : 1
+Outputting time step 0.00768 during load step : 1
+Outputting time step 0.007685 during load step : 1
+Outputting time step 0.00769 during load step : 1
+Outputting time step 0.007695 during load step : 1
+Outputting time step 0.0077 during load step : 1
+Outputting time step 0.007705 during load step : 1
+Outputting time step 0.00771 during load step : 1
+Outputting time step 0.007715 during load step : 1
+Outputting time step 0.00772 during load step : 1
+Outputting time step 0.007725 during load step : 1
+Outputting time step 0.00773 during load step : 1
+Outputting time step 0.007735 during load step : 1
+Outputting time step 0.00774 during load step : 1
+Outputting time step 0.007745 during load step : 1
+Outputting time step 0.00775 during load step : 1
+Outputting time step 0.007755 during load step : 1
+Outputting time step 0.00776 during load step : 1
+Outputting time step 0.007765 during load step : 1
+Outputting time step 0.00777 during load step : 1
+Outputting time step 0.007775 during load step : 1
+Outputting time step 0.00778 during load step : 1
+Outputting time step 0.007785 during load step : 1
+Outputting time step 0.00779 during load step : 1
+Outputting time step 0.007795 during load step : 1
+Outputting time step 0.0078 during load step : 1
+Outputting time step 0.007805 during load step : 1
+Outputting time step 0.00781 during load step : 1
+Outputting time step 0.007815 during load step : 1
+Outputting time step 0.00782 during load step : 1
+Outputting time step 0.007825 during load step : 1
+Outputting time step 0.00783 during load step : 1
+Outputting time step 0.007835 during load step : 1
+Outputting time step 0.00784 during load step : 1
+Outputting time step 0.007845 during load step : 1
+Outputting time step 0.00785 during load step : 1
+Outputting time step 0.007855 during load step : 1
+Outputting time step 0.00786 during load step : 1
+Outputting time step 0.007865 during load step : 1
+Outputting time step 0.00787 during load step : 1
+Outputting time step 0.007875 during load step : 1
+Outputting time step 0.00788 during load step : 1
+Outputting time step 0.007885 during load step : 1
+Outputting time step 0.00789 during load step : 1
+Outputting time step 0.007895 during load step : 1
+Outputting time step 0.0079 during load step : 1
+Outputting time step 0.007905 during load step : 1
+Outputting time step 0.00791 during load step : 1
+Outputting time step 0.007915 during load step : 1
+Outputting time step 0.00792 during load step : 1
+Outputting time step 0.007925 during load step : 1
+Outputting time step 0.00793 during load step : 1
+Outputting time step 0.007935 during load step : 1
+Outputting time step 0.00794 during load step : 1
+Outputting time step 0.007945 during load step : 1
+Outputting time step 0.00795 during load step : 1
+Outputting time step 0.007955 during load step : 1
+Outputting time step 0.00796 during load step : 1
+Outputting time step 0.007965 during load step : 1
+Outputting time step 0.00797 during load step : 1
+Outputting time step 0.007975 during load step : 1
+Outputting time step 0.00798 during load step : 1
+Outputting time step 0.007985 during load step : 1
+Outputting time step 0.00799 during load step : 1
+Outputting time step 0.007995 during load step : 1
+Outputting time step 0.008 during load step : 1
+Outputting time step 0.008005 during load step : 1
+Outputting time step 0.00801 during load step : 1
+Outputting time step 0.008015 during load step : 1
+Outputting time step 0.00802 during load step : 1
+Outputting time step 0.008025 during load step : 1
+Outputting time step 0.00803 during load step : 1
+Outputting time step 0.008035 during load step : 1
+Outputting time step 0.00804 during load step : 1
+Outputting time step 0.008045 during load step : 1
+Outputting time step 0.00805 during load step : 1
+Outputting time step 0.008055 during load step : 1
+Outputting time step 0.00806 during load step : 1
+Outputting time step 0.008065 during load step : 1
+Outputting time step 0.00807 during load step : 1
+Outputting time step 0.008075 during load step : 1
+Outputting time step 0.00808 during load step : 1
+Outputting time step 0.008085 during load step : 1
+Outputting time step 0.00809 during load step : 1
+Outputting time step 0.008095 during load step : 1
+Outputting time step 0.0081 during load step : 1
+Outputting time step 0.008105 during load step : 1
+Outputting time step 0.00811 during load step : 1
+Outputting time step 0.008115 during load step : 1
+Outputting time step 0.00812 during load step : 1
+Outputting time step 0.008125 during load step : 1
+Outputting time step 0.00813 during load step : 1
+Outputting time step 0.008135 during load step : 1
+Outputting time step 0.00814 during load step : 1
+Outputting time step 0.008145 during load step : 1
+Outputting time step 0.00815 during load step : 1
+Outputting time step 0.008155 during load step : 1
+Outputting time step 0.00816 during load step : 1
+Outputting time step 0.008165 during load step : 1
+Outputting time step 0.00817 during load step : 1
+Outputting time step 0.008175 during load step : 1
+Outputting time step 0.00818 during load step : 1
+Outputting time step 0.008185 during load step : 1
+Outputting time step 0.00819 during load step : 1
+Outputting time step 0.008195 during load step : 1
+Outputting time step 0.0082 during load step : 1
+Outputting time step 0.008205 during load step : 1
+Outputting time step 0.00821 during load step : 1
+Outputting time step 0.008215 during load step : 1
+Outputting time step 0.00822 during load step : 1
+Outputting time step 0.008225 during load step : 1
+Outputting time step 0.00823 during load step : 1
+Outputting time step 0.008235 during load step : 1
+Outputting time step 0.00824 during load step : 1
+Outputting time step 0.008245 during load step : 1
+Outputting time step 0.00825 during load step : 1
+Outputting time step 0.008255 during load step : 1
+Outputting time step 0.00826 during load step : 1
+Outputting time step 0.008265 during load step : 1
+Outputting time step 0.00827 during load step : 1
+Outputting time step 0.008275 during load step : 1
+Outputting time step 0.00828 during load step : 1
+Outputting time step 0.008285 during load step : 1
+Outputting time step 0.00829 during load step : 1
+Outputting time step 0.008295 during load step : 1
+Outputting time step 0.0083 during load step : 1
+Outputting time step 0.008305 during load step : 1
+Outputting time step 0.00831 during load step : 1
+Outputting time step 0.008315 during load step : 1
+Outputting time step 0.00832 during load step : 1
+Outputting time step 0.008325 during load step : 1
+Outputting time step 0.00833 during load step : 1
+Outputting time step 0.008335 during load step : 1
+Outputting time step 0.00834 during load step : 1
+Outputting time step 0.008345 during load step : 1
+Outputting time step 0.00835 during load step : 1
+Outputting time step 0.008355 during load step : 1
+Outputting time step 0.00836 during load step : 1
+Outputting time step 0.008365 during load step : 1
+Outputting time step 0.00837 during load step : 1
+Outputting time step 0.008375 during load step : 1
+Outputting time step 0.00838 during load step : 1
+Outputting time step 0.008385 during load step : 1
+Outputting time step 0.00839 during load step : 1
+Outputting time step 0.008395 during load step : 1
+Outputting time step 0.0084 during load step : 1
+Outputting time step 0.008405 during load step : 1
+Outputting time step 0.00841 during load step : 1
+Outputting time step 0.008415 during load step : 1
+Outputting time step 0.00842 during load step : 1
+Outputting time step 0.008425 during load step : 1
+Outputting time step 0.00843 during load step : 1
+Outputting time step 0.008435 during load step : 1
+Outputting time step 0.00844 during load step : 1
+Outputting time step 0.008445 during load step : 1
+Outputting time step 0.00845 during load step : 1
+Outputting time step 0.008455 during load step : 1
+Outputting time step 0.00846 during load step : 1
+Outputting time step 0.008465 during load step : 1
+Outputting time step 0.00847 during load step : 1
+Outputting time step 0.008475 during load step : 1
+Outputting time step 0.00848 during load step : 1
+Outputting time step 0.008485 during load step : 1
+Outputting time step 0.00849 during load step : 1
+Outputting time step 0.008495 during load step : 1
+Outputting time step 0.0085 during load step : 1
+Outputting time step 0.008505 during load step : 1
+Outputting time step 0.00851 during load step : 1
+Outputting time step 0.008515 during load step : 1
+Outputting time step 0.00852 during load step : 1
+Outputting time step 0.008525 during load step : 1
+Outputting time step 0.00853 during load step : 1
+Outputting time step 0.008535 during load step : 1
+Outputting time step 0.00854 during load step : 1
+Outputting time step 0.008545 during load step : 1
+Outputting time step 0.00855 during load step : 1
+Outputting time step 0.008555 during load step : 1
+Outputting time step 0.00856 during load step : 1
+Outputting time step 0.008565 during load step : 1
+Outputting time step 0.00857 during load step : 1
+Outputting time step 0.008575 during load step : 1
+Outputting time step 0.00858 during load step : 1
+Outputting time step 0.008585 during load step : 1
+Outputting time step 0.00859 during load step : 1
+Outputting time step 0.008595 during load step : 1
+Outputting time step 0.0086 during load step : 1
+Outputting time step 0.008605 during load step : 1
+Outputting time step 0.00861 during load step : 1
+Outputting time step 0.008615 during load step : 1
+Outputting time step 0.00862 during load step : 1
+Outputting time step 0.008625 during load step : 1
+Outputting time step 0.00863 during load step : 1
+Outputting time step 0.008635 during load step : 1
+Outputting time step 0.00864 during load step : 1
+Outputting time step 0.008645 during load step : 1
+Outputting time step 0.00865 during load step : 1
+Outputting time step 0.008655 during load step : 1
+Outputting time step 0.00866 during load step : 1
+Outputting time step 0.008665 during load step : 1
+Outputting time step 0.00867 during load step : 1
+Outputting time step 0.008675 during load step : 1
+Outputting time step 0.00868 during load step : 1
+Outputting time step 0.008685 during load step : 1
+Outputting time step 0.00869 during load step : 1
+Outputting time step 0.008695 during load step : 1
+Outputting time step 0.0087 during load step : 1
+Outputting time step 0.008705 during load step : 1
+Outputting time step 0.00871 during load step : 1
+Outputting time step 0.008715 during load step : 1
+Outputting time step 0.00872 during load step : 1
+Outputting time step 0.008725 during load step : 1
+Outputting time step 0.00873 during load step : 1
+Outputting time step 0.008735 during load step : 1
+Outputting time step 0.00874 during load step : 1
+Outputting time step 0.008745 during load step : 1
+Outputting time step 0.00875 during load step : 1
+Outputting time step 0.008755 during load step : 1
+Outputting time step 0.00876 during load step : 1
+Outputting time step 0.008765 during load step : 1
+Outputting time step 0.00877 during load step : 1
+Outputting time step 0.008775 during load step : 1
+Outputting time step 0.00878 during load step : 1
+Outputting time step 0.008785 during load step : 1
+Outputting time step 0.00879 during load step : 1
+Outputting time step 0.008795 during load step : 1
+Outputting time step 0.0088 during load step : 1
+Outputting time step 0.008805 during load step : 1
+Outputting time step 0.00881 during load step : 1
+Outputting time step 0.008815 during load step : 1
+Outputting time step 0.00882 during load step : 1
+Outputting time step 0.008825 during load step : 1
+Outputting time step 0.00883 during load step : 1
+Outputting time step 0.008835 during load step : 1
+Outputting time step 0.00884 during load step : 1
+Outputting time step 0.008845 during load step : 1
+Outputting time step 0.00885 during load step : 1
+Outputting time step 0.008855 during load step : 1
+Outputting time step 0.00886 during load step : 1
+Outputting time step 0.008865 during load step : 1
+Outputting time step 0.00887 during load step : 1
+Outputting time step 0.008875 during load step : 1
+Outputting time step 0.00888 during load step : 1
+Outputting time step 0.008885 during load step : 1
+Outputting time step 0.00889 during load step : 1
+Outputting time step 0.008895 during load step : 1
+Outputting time step 0.0089 during load step : 1
+Outputting time step 0.008905 during load step : 1
+Outputting time step 0.00891 during load step : 1
+Outputting time step 0.008915 during load step : 1
+Outputting time step 0.00892 during load step : 1
+Outputting time step 0.008925 during load step : 1
+Outputting time step 0.00893 during load step : 1
+Outputting time step 0.008935 during load step : 1
+Outputting time step 0.00894 during load step : 1
+Outputting time step 0.008945 during load step : 1
+Outputting time step 0.00895 during load step : 1
+Outputting time step 0.008955 during load step : 1
+Outputting time step 0.00896 during load step : 1
+Outputting time step 0.008965 during load step : 1
+Outputting time step 0.00897 during load step : 1
+Outputting time step 0.008975 during load step : 1
+Outputting time step 0.00898 during load step : 1
+Outputting time step 0.008985 during load step : 1
+Outputting time step 0.00899 during load step : 1
+Outputting time step 0.008995 during load step : 1
+Outputting time step 0.009 during load step : 1
+Outputting time step 0.009005 during load step : 1
+Outputting time step 0.00901 during load step : 1
+Outputting time step 0.009015 during load step : 1
+Outputting time step 0.00902 during load step : 1
+Outputting time step 0.009025 during load step : 1
+Outputting time step 0.00903 during load step : 1
+Outputting time step 0.009035 during load step : 1
+Outputting time step 0.00904 during load step : 1
+Outputting time step 0.009045 during load step : 1
+Outputting time step 0.00905 during load step : 1
+Outputting time step 0.009055 during load step : 1
+Outputting time step 0.00906 during load step : 1
+Outputting time step 0.009065 during load step : 1
+Outputting time step 0.00907 during load step : 1
+Outputting time step 0.009075 during load step : 1
+Outputting time step 0.00908 during load step : 1
+Outputting time step 0.009085 during load step : 1
+Outputting time step 0.00909 during load step : 1
+Outputting time step 0.009095 during load step : 1
+Outputting time step 0.0091 during load step : 1
+Outputting time step 0.009105 during load step : 1
+Outputting time step 0.00911 during load step : 1
+Outputting time step 0.009115 during load step : 1
+Outputting time step 0.00912 during load step : 1
+Outputting time step 0.009125 during load step : 1
+Outputting time step 0.00913 during load step : 1
+Outputting time step 0.009135 during load step : 1
+Outputting time step 0.00914 during load step : 1
+Outputting time step 0.009145 during load step : 1
+Outputting time step 0.00915 during load step : 1
+Outputting time step 0.009155 during load step : 1
+Outputting time step 0.00916 during load step : 1
+Outputting time step 0.009165 during load step : 1
+Outputting time step 0.00917 during load step : 1
+Outputting time step 0.009175 during load step : 1
+Outputting time step 0.00918 during load step : 1
+Outputting time step 0.009185 during load step : 1
+Outputting time step 0.00919 during load step : 1
+Outputting time step 0.009195 during load step : 1
+Outputting time step 0.0092 during load step : 1
+Outputting time step 0.009205 during load step : 1
+Outputting time step 0.00921 during load step : 1
+Outputting time step 0.009215 during load step : 1
+Outputting time step 0.00922 during load step : 1
+Outputting time step 0.009225 during load step : 1
+Outputting time step 0.00923 during load step : 1
+Outputting time step 0.009235 during load step : 1
+Outputting time step 0.00924 during load step : 1
+Outputting time step 0.009245 during load step : 1
+Outputting time step 0.00925 during load step : 1
+Outputting time step 0.009255 during load step : 1
+Outputting time step 0.00926 during load step : 1
+Outputting time step 0.009265 during load step : 1
+Outputting time step 0.00927 during load step : 1
+Outputting time step 0.009275 during load step : 1
+Outputting time step 0.00928 during load step : 1
+Outputting time step 0.009285 during load step : 1
+Outputting time step 0.00929 during load step : 1
+Outputting time step 0.009295 during load step : 1
+Outputting time step 0.0093 during load step : 1
+Outputting time step 0.009305 during load step : 1
+Outputting time step 0.00931 during load step : 1
+Outputting time step 0.009315 during load step : 1
+Outputting time step 0.00932 during load step : 1
+Outputting time step 0.009325 during load step : 1
+Outputting time step 0.00933 during load step : 1
+Outputting time step 0.009335 during load step : 1
+Outputting time step 0.00934 during load step : 1
+Outputting time step 0.009345 during load step : 1
+Outputting time step 0.00935 during load step : 1
+Outputting time step 0.009355 during load step : 1
+Outputting time step 0.00936 during load step : 1
+Outputting time step 0.009365 during load step : 1
+Outputting time step 0.00937 during load step : 1
+Outputting time step 0.009375 during load step : 1
+Outputting time step 0.00938 during load step : 1
+Outputting time step 0.009385 during load step : 1
+Outputting time step 0.00939 during load step : 1
+Outputting time step 0.009395 during load step : 1
+Outputting time step 0.0094 during load step : 1
+Outputting time step 0.009405 during load step : 1
+Outputting time step 0.00941 during load step : 1
+Outputting time step 0.009415 during load step : 1
+Outputting time step 0.00942 during load step : 1
+Outputting time step 0.009425 during load step : 1
+Outputting time step 0.00943 during load step : 1
+Outputting time step 0.009435 during load step : 1
+Outputting time step 0.00944 during load step : 1
+Outputting time step 0.009445 during load step : 1
+Outputting time step 0.00945 during load step : 1
+Outputting time step 0.009455 during load step : 1
+Outputting time step 0.00946 during load step : 1
+Outputting time step 0.009465 during load step : 1
+Outputting time step 0.00947 during load step : 1
+Outputting time step 0.009475 during load step : 1
+Outputting time step 0.00948 during load step : 1
+Outputting time step 0.009485 during load step : 1
+Outputting time step 0.00949 during load step : 1
+Outputting time step 0.009495 during load step : 1
+Outputting time step 0.0095 during load step : 1
+Outputting time step 0.009505 during load step : 1
+Outputting time step 0.00951 during load step : 1
+Outputting time step 0.009515 during load step : 1
+Outputting time step 0.00952 during load step : 1
+Outputting time step 0.009525 during load step : 1
+Outputting time step 0.00953 during load step : 1
+Outputting time step 0.009535 during load step : 1
+Outputting time step 0.00954 during load step : 1
+Outputting time step 0.009545 during load step : 1
+Outputting time step 0.00955 during load step : 1
+Outputting time step 0.009555 during load step : 1
+Outputting time step 0.00956 during load step : 1
+Outputting time step 0.009565 during load step : 1
+Outputting time step 0.00957 during load step : 1
+Outputting time step 0.009575 during load step : 1
+Outputting time step 0.00958 during load step : 1
+Outputting time step 0.009585 during load step : 1
+Outputting time step 0.00959 during load step : 1
+Outputting time step 0.009595 during load step : 1
+Outputting time step 0.0096 during load step : 1
+Outputting time step 0.009605 during load step : 1
+Outputting time step 0.00961 during load step : 1
+Outputting time step 0.009615 during load step : 1
+Outputting time step 0.00962 during load step : 1
+Outputting time step 0.009625 during load step : 1
+Outputting time step 0.00963 during load step : 1
+Outputting time step 0.009635 during load step : 1
+Outputting time step 0.00964 during load step : 1
+Outputting time step 0.009645 during load step : 1
+Outputting time step 0.00965 during load step : 1
+Outputting time step 0.009655 during load step : 1
+Outputting time step 0.00966 during load step : 1
+Outputting time step 0.009665 during load step : 1
+Outputting time step 0.00967 during load step : 1
+Outputting time step 0.009675 during load step : 1
+Outputting time step 0.00968 during load step : 1
+Outputting time step 0.009685 during load step : 1
+Outputting time step 0.00969 during load step : 1
+Outputting time step 0.009695 during load step : 1
+Outputting time step 0.0097 during load step : 1
+Outputting time step 0.009705 during load step : 1
+Outputting time step 0.00971 during load step : 1
+Outputting time step 0.009715 during load step : 1
+Outputting time step 0.00972 during load step : 1
+Outputting time step 0.009725 during load step : 1
+Outputting time step 0.00973 during load step : 1
+Outputting time step 0.009735 during load step : 1
+Outputting time step 0.00974 during load step : 1
+Outputting time step 0.009745 during load step : 1
+Outputting time step 0.00975 during load step : 1
+Outputting time step 0.009755 during load step : 1
+Outputting time step 0.00976 during load step : 1
+Outputting time step 0.009765 during load step : 1
+Outputting time step 0.00977 during load step : 1
+Outputting time step 0.009775 during load step : 1
+Outputting time step 0.00978 during load step : 1
+Outputting time step 0.009785 during load step : 1
+Outputting time step 0.00979 during load step : 1
+Outputting time step 0.009795 during load step : 1
+Outputting time step 0.0098 during load step : 1
+Outputting time step 0.009805 during load step : 1
+Outputting time step 0.00981 during load step : 1
+Outputting time step 0.009815 during load step : 1
+Outputting time step 0.00982 during load step : 1
+Outputting time step 0.009825 during load step : 1
+Outputting time step 0.00983 during load step : 1
+Outputting time step 0.009835 during load step : 1
+Outputting time step 0.00984 during load step : 1
+Outputting time step 0.009845 during load step : 1
+Outputting time step 0.00985 during load step : 1
+Outputting time step 0.009855 during load step : 1
+Outputting time step 0.00986 during load step : 1
+Outputting time step 0.009865 during load step : 1
+Outputting time step 0.00987 during load step : 1
+Outputting time step 0.009875 during load step : 1
+Outputting time step 0.00988 during load step : 1
+Outputting time step 0.009885 during load step : 1
+Outputting time step 0.00989 during load step : 1
+Outputting time step 0.009895 during load step : 1
+Outputting time step 0.0099 during load step : 1
+Outputting time step 0.009905 during load step : 1
+Outputting time step 0.00991 during load step : 1
+Outputting time step 0.009915 during load step : 1
+Outputting time step 0.00992 during load step : 1
+Outputting time step 0.009925 during load step : 1
+Outputting time step 0.00993 during load step : 1
+Outputting time step 0.009935 during load step : 1
+Outputting time step 0.00994 during load step : 1
+Outputting time step 0.009945 during load step : 1
+Outputting time step 0.00995 during load step : 1
+Outputting time step 0.009955 during load step : 1
+Outputting time step 0.00996 during load step : 1
+Outputting time step 0.009965 during load step : 1
+Outputting time step 0.00997 during load step : 1
+Outputting time step 0.009975 during load step : 1
+Outputting time step 0.00998 during load step : 1
+Outputting time step 0.009985 during load step : 1
+Outputting time step 0.00999 during load step : 1
+Outputting time step 0.009995 during load step : 1
+Outputting time step 0.01 during load step : 1
+20951.41user 0.11system 5:48:54elapsed 100%CPU (0avgtext+0avgdata 1788maxresident)k
+544inputs+54344outputs (2major+504minor)pagefaults 0swaps
