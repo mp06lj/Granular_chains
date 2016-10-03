@@ -1,0 +1,11 @@
+N: 500
+dt: 0.001
+nsteps: 1000000000000
+files: KTFX
+rHO: 45.07
+Wall: 11
+timeSPItS: 40.0
+fileName: Jun.22.2009
+exponential: 2.5
+largeinitv: 9.899E-5
+preload: 3.0E-5
